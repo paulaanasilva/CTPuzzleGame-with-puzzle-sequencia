@@ -48,7 +48,7 @@ export default class Game extends Scene {
     this.load.image('block', `assets/ct/obstacle_orange_${this.mode}.png`);
     this.load.image('message_box', 'assets/ct/message.png');
     this.load.image('intention_comamnd', 'assets/ct/intention_comamnd.png');
-    this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
+    //this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
     this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-play', 'assets/ct/btn_play.png', { frameWidth: 100, frameHeight: 100 });
