@@ -1,0 +1,52 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "node_modules/": true,
+      "*/**/dist": true,
+      ".idea": true,
+    }
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "launch-dev",
+        "type": "shell",
+        "options": {
+          "cwd": "${workspaceFolder}",
+        },
+        "command": "npm run dev"
+      },
+      {
+        "label": "Build and run locally",
+        "type": "shell",
+        "options": {
+          "cwd": "${workspaceFolder}"
+        },
+        "command": "npm run build && http-server dist",
+        "problemMatcher": []
+      }
+    ]
+  },
+  "launch": {
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Run Game",
+        "type": "node-terminal",
+        "command": "npm run dev",
+        "cwd": "${workspaceFolder}",
+        "request": "launch",
+        "internalConsoleOptions": "openOnFirstSessionStart"
+      },
+    ]
+  }
+}

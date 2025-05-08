@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<style media='screen' type='text/css'>
+  @font-face {
+    font-family: 'Dyuthi';
+    src: url('/assets/fonts/Dyuthi-Regular.ttf');
+    font-weight: 400;
+    font-weight: normal;
+  }
+
+  body {
+    text-align: center;
+    background: #4f9eaefb;
+    /* background: radial-gradient(#cdc687, #b97a51); */
+    margin: 0;
+  }
+</style>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CT Puzzle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+</head>
+
+<div style="font-family:Dyuthi, Arial, Helvetica, sans-serif; color:white"></div>
+
+<body>
+</body>
+<script lang="ts">
+  window.addEventListener('resize', () => {
+    if (window.innerHeight < window.innerWidth) {
+      window.location.reload()
+    }
+  })
+  document.body.addEventListener('touchstart', function (e) {
+    if (e.target.nodeName === 'INPUT') {
+      this.style.pointerEvents = 'none';
+    }
+  });
+  document.body.pointerEvents = 'auto';
+</script>
+
+</html>

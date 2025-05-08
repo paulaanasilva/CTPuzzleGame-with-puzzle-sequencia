@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": false,
+    "module": "es6",
+    "target": "es5",
+    "strict": false,
+    "lib": [
+      "ES2019",
+      "DOM"
+    ],
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_module/phaser/types"
+    ],
+    "types": [
+      "phaser"
+    ]
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+  ]
+}

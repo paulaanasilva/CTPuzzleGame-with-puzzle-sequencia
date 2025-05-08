@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Game",
+            "type": "node",
+            "request": "attach",
+            "port": 9000,
+            "restart": true,
+            "sourceMaps": true,
+            "trace": "verbose",
+            "timeout": 10000
+          },
+          {
+            "name": "Game",
+            "request": "launch",
+            //"preLaunchTask": "npm install",
+            "type": "node-terminal",
+            "cwd": "${workspaceFolder}",
+            "command": "npm run dev",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+        },
+    ]
+}

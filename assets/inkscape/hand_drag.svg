@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3531"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="hand_drag.svg">
+  <defs
+     id="defs3525">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient860">
+      <stop
+         style="stop-color:#ffff00;stop-opacity:0.625"
+         offset="0"
+         id="stop856" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0"
+         offset="1"
+         id="stop858" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient860"
+       id="radialGradient862"
+       cx="105.92783"
+       cy="72.57663"
+       fx="105.92783"
+       fy="72.57663"
+       r="7.9040179"
+       gradientTransform="matrix(1.4628067,-0.05167119,0.05160429,1.5450023,-47.958524,-30.796535)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="366.12378"
+     inkscape:cy="866.14643"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3528">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.9807692;fill-rule:nonzero;stroke:#ffffff;stroke-width:0.95464116;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.41826926;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4224"
+       width="328.82141"
+       height="89.882462"
+       x="-2.7126448"
+       y="46.261238"
+       ry="4.5117173" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect3483"
+       width="20.336248"
+       height="26.710297"
+       x="26.668798"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="26.668798"
+       height="26.710297"
+       width="20.336248"
+       id="rect3438"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 33.763627,94.652144 c -1.005757,-0.02065 -1.393995,0.988111 -1.318952,1.870732 l 0.382042,4.493444 0.455662,6.46712 c 0.02301,3.05189 -2.021427,-0.6928 -2.653912,-1.40533 -1.133263,-1.11728 -2.19427,-1.1798 -2.556483,-0.73728 -0.404668,0.49437 0.03746,1.87038 1.826077,3.97491 1.271505,2.12695 1.515927,3.8345 3.058638,5.38849 0.365694,0.36836 0.396665,0.94692 0.917961,0.9597 l 7.500099,0.18382 c 0.912523,-0.06 1.168506,-0.72485 1.523364,-1.56933 0.949027,-2.25846 2.090154,-7.21007 2.588297,-10.79858 0.119175,-0.85852 0.284857,-1.7658 0.292084,-2.58284 0.0072,-0.81705 -0.262424,-1.362522 -0.940009,-1.348354 -0.874642,0.0183 -0.808071,1.298994 -1.307968,3.484764 l -0.901614,2.06086 -0.672216,-0.0977 c 0,0 0.250689,-1.87118 0.466566,-4.06689 0.166927,-1.697892 0.251096,-3.540151 0.244373,-4.911009 -0.004,-0.869452 -0.790037,-1.256988 -1.246709,-1.266487 -0.557997,-0.01365 -0.969727,0.413165 -1.030912,0.949755 l -0.555827,4.874611 -0.492679,3.9272 -0.615875,-0.0151 0.209813,-4.16128 0.20151,-5.175421 c -0.005,-0.746227 -0.482984,-1.650301 -1.329613,-1.618735 -0.605312,-0.01485 -1.391517,0.260353 -1.436791,1.629932 l -0.175029,5.294814 -0.178323,4.02179 -0.544257,-0.0134 -0.183867,-3.65537 -0.292282,-4.529596 c -0.06195,-0.666733 -0.227402,-1.609002 -1.233161,-1.629572 z"
+       id="path3485"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccsccscsszscccsscsccccccsccccczc"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="47.005047"
+       height="26.710297"
+       width="20.336248"
+       id="rect3519"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect3521"
+       width="20.336248"
+       height="26.710297"
+       x="47.005047"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <path
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       sodipodi:nodetypes="cscccsccscssascccsscsccccccsccccczc"
+       inkscape:connector-curvature="0"
+       id="path3523"
+       d="m 53.639964,94.920426 c -1.00576,-0.02065 -1.492063,1.002006 -1.318952,1.870732 l 0.841953,4.225162 0.455662,6.46712 c 0.023,3.05189 -1.523187,-0.8461 -2.15567,-1.55864 -1.133264,-1.11728 -2.347577,-1.17979 -2.70979,-0.73728 -0.404669,0.49438 0.03746,1.87039 1.826078,3.97492 1.271507,2.12695 1.17099,3.9878 2.713702,5.54179 0.365693,0.36836 0.396667,0.94692 0.91796,0.9597 l 7.500102,0.18382 c 0.912523,-0.06 1.168506,-0.72485 1.523365,-1.56933 0.949026,-2.25846 2.090154,-7.21007 2.588296,-10.79858 0.119176,-0.85852 0.09058,-1.58545 -0.167827,-2.31456 -0.183022,-0.51642 -0.262425,-1.36252 -0.940009,-1.348352 -0.874649,0.0183 -0.619165,1.030712 -0.848063,3.216482 l -0.901613,2.06086 -0.672211,-0.0977 c 0,0 0.250689,-1.87118 0.466561,-4.06689 0.166932,-1.697892 -0.208811,-3.271869 -0.215533,-4.642727 -0.004,-0.869452 -0.790038,-1.256988 -1.246709,-1.266487 -0.557997,-0.01365 -1.019671,0.409805 -1.030913,0.949755 l -0.09592,4.606329 -0.492682,3.9272 -0.615872,-0.0151 0.209815,-4.16128 -0.258404,-4.907139 c -0.0052,-0.746227 -0.482982,-1.6503 -1.32961,-1.618736 -0.605319,-0.01485 -1.514331,0.261801 -1.436793,1.629932 l 0.284881,5.026533 -0.178325,4.02179 -0.544253,-0.0134 -0.183871,-3.65537 -0.752192,-4.261314 c -0.06195,-0.666732 -0.2274,-1.609002 -1.233161,-1.629571 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4118"
+       width="20.336248"
+       height="26.710297"
+       x="67.341293"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="67.341293"
+       height="26.710297"
+       width="20.336248"
+       id="rect4120"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 73.672684,95.223952 c -1.005761,-0.02065 -1.567313,1.020456 -1.318953,1.870732 l 1.145482,3.921636 0.455661,6.46712 c 0.023,3.05189 -1.331555,-0.76945 -1.964038,-1.48198 -1.133265,-1.11729 -2.079297,-1.21813 -2.441509,-0.77561 -0.404669,0.49437 -0.269152,1.98536 1.51947,4.08989 1.271506,2.12695 1.017685,3.8345 2.560397,5.38849 0.365694,0.36836 0.396668,0.94692 0.91796,0.9597 l 7.5001,0.18382 c 0.912522,-0.06 1.168505,-0.72485 1.523364,-1.56933 0.949031,-2.25846 2.090155,-6.5647 2.5883,-10.1532 0.119174,-0.85852 -0.158732,-2.05032 -0.356381,-2.75223 -0.152048,-0.53996 -0.377401,-1.2667 -1.054982,-1.25254 -0.874651,0.0183 -0.253938,1.96887 -0.544537,2.91296 -0.220583,0.71664 -0.901612,2.06086 -0.901612,2.06086 l -0.672212,-0.0977 c 0,0 0.25069,-1.87118 0.466558,-4.06689 0.166936,-1.697892 -0.512338,-2.968343 -0.519055,-4.339201 -0.0041,-0.869452 -0.790038,-1.256988 -1.246712,-1.266486 -0.558,-0.01365 -1.056936,0.410315 -1.030911,0.949754 l 0.207608,4.302803 -0.492679,3.9272 -0.615874,-0.0151 0.209818,-4.16128 -0.561931,-4.603613 c -0.0055,-0.746226 -0.482988,-1.6503 -1.329611,-1.618736 -0.60532,-0.01485 -1.606205,0.270118 -1.436795,1.629932 l 0.588409,4.723007 -0.178324,4.02179 -0.544253,-0.0134 -0.183871,-3.65537 -1.05572,-3.957788 C 74.843903,96.1865 74.67845,95.244231 73.67269,95.223662 Z"
+       id="path4122"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccsccscsssssccsscsccccccsccccczc"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="87.677536"
+       height="26.710297"
+       width="20.336248"
+       id="rect4124"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4126"
+       width="20.336248"
+       height="26.710297"
+       x="87.677536"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <path
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       sodipodi:nodetypes="ccccsccscsssssccsscsccccccscccccc"
+       inkscape:connector-curvature="0"
+       id="path4128"
+       d="m 92.717074,100.26106 0.67162,2.10869 0.68562,5.11369 c 0.02299,3.05189 -1.045813,-0.4489 -1.678296,-1.16143 -1.133264,-1.11728 -2.194268,-1.1798 -2.556485,-0.73728 -0.404666,0.49437 -0.287749,1.70778 1.148571,3.83941 1.271504,2.12696 1.217816,3.7261 2.760529,5.28009 0.365693,0.36836 0.396667,0.94692 0.91796,0.9597 l 7.500107,0.18382 c 0.91252,-0.06 1.1685,-0.72485 1.52336,-1.56933 0.94902,-2.25846 1.8602,-5.64487 2.35834,-9.23338 0.11918,-0.85852 -0.15873,-1.61671 -0.35638,-2.31862 -0.15205,-0.53996 -0.27008,-1.31086 -1.05498,-1.25253 -0.98204,0.073 -0.20168,1.55295 -0.54454,2.47934 -0.16154,0.43648 -0.69876,1.20879 -0.69876,1.20879 l -0.6451,-0.16545 c 0,0 0.19748,-0.5075 0.2366,-2.71345 0.0136,-0.7685 -0.0141,-1.63023 -0.28911,-2.675318 -0.22126,-0.840838 -0.79004,-1.256988 -1.24671,-1.266487 -0.55799,-0.01365 -1.02634,0.409708 -1.03091,0.949755 l -0.0223,2.63891 -0.26273,2.57377 -0.615874,-0.0151 -0.02017,-2.80785 -0.331979,-2.93972 c -0.0048,-0.746227 -0.577831,-1.63675 -1.424461,-1.605185 -0.605315,-0.01485 -1.498255,0.554728 -1.328393,1.914487 l 0.344906,2.761008 0.05162,2.66836 -0.544255,-0.0134 -0.413819,-2.30194 -0.825768,-2.293895 c -0.443823,-1.989878 -2.904365,-1.442408 -2.308245,0.390505 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="108.01378"
+       height="26.710297"
+       width="20.336248"
+       id="rect4206"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4208"
+       width="20.336248"
+       height="26.710297"
+       x="108.01378"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <path
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       sodipodi:nodetypes="cscccsccscsssssccsscsccccccsccccczc"
+       inkscape:connector-curvature="0"
+       id="path4210"
+       d="m 114.12837,95.223952 c -1.00576,-0.02065 -1.56732,1.020456 -1.31896,1.870732 l 1.14548,3.921636 0.45566,6.46712 c 0.023,3.05189 -1.33155,-0.76945 -1.96403,-1.48198 -1.13326,-1.11729 -2.0793,-1.21813 -2.44151,-0.77561 -0.40467,0.49437 -0.26915,1.98536 1.51947,4.08989 1.27151,2.12695 1.01769,3.8345 2.5604,5.38849 0.36569,0.36836 0.39667,0.94692 0.91796,0.9597 l 7.5001,0.18382 c 0.91253,-0.06 1.16851,-0.72485 1.52336,-1.56933 0.94903,-2.25846 2.09015,-6.5647 2.5883,-10.1532 0.11917,-0.85852 -0.15873,-2.05032 -0.35638,-2.75223 -0.15205,-0.53996 -0.3774,-1.2667 -1.05498,-1.25254 -0.87465,0.0183 -0.25394,1.96887 -0.54454,2.91296 -0.22058,0.71664 -0.90161,2.06086 -0.90161,2.06086 l -0.67221,-0.0977 c 0,0 0.25069,-1.87118 0.46656,-4.06689 0.16693,-1.697892 -0.51234,-2.968343 -0.51906,-4.339201 -0.004,-0.869452 -0.79004,-1.256988 -1.24671,-1.266486 -0.558,-0.01365 -1.05694,0.410315 -1.03091,0.949754 l 0.2076,4.302803 -0.49268,3.9272 -0.61587,-0.0151 0.20982,-4.16128 -0.56193,-4.603613 c -0.005,-0.746226 -0.48298,-1.6503 -1.32961,-1.618736 -0.60532,-0.01485 -1.60621,0.270118 -1.4368,1.629932 l 0.58841,4.723007 -0.17832,4.02179 -0.54425,-0.0134 -0.18388,-3.65537 -1.05572,-3.957788 c -0.0619,-0.666732 -0.2274,-1.609001 -1.23316,-1.62957 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4212"
+       width="20.336248"
+       height="26.710297"
+       x="128.35002"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="128.35002"
+       height="26.710297"
+       width="20.336248"
+       id="rect4214"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <path
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       d="m 134.76814,94.920426 c -1.00576,-0.02065 -1.49206,1.002006 -1.31895,1.870732 l 0.84195,4.225162 0.45566,6.46712 c 0.023,3.05189 -1.52318,-0.8461 -2.15567,-1.55864 -1.13326,-1.11728 -2.34757,-1.17979 -2.70979,-0.73728 -0.40467,0.49438 0.0374,1.87039 1.82608,3.97492 1.27151,2.12695 1.17099,3.9878 2.7137,5.54179 0.36569,0.36836 0.39667,0.94692 0.91796,0.9597 l 7.5001,0.18382 c 0.91253,-0.06 1.16851,-0.72485 1.52337,-1.56933 0.94903,-2.25846 2.09015,-7.21007 2.5883,-10.79858 0.11917,-0.85852 0.0906,-1.58545 -0.16783,-2.31456 -0.18303,-0.51642 -0.26242,-1.36252 -0.94001,-1.348352 -0.87465,0.0183 -0.61916,1.030712 -0.84806,3.216482 l -0.90162,2.06086 -0.67221,-0.0977 c 0,0 0.25069,-1.87118 0.46656,-4.06689 0.16694,-1.697892 -0.20881,-3.271869 -0.21553,-4.642727 -0.004,-0.869452 -0.79004,-1.256988 -1.24671,-1.266487 -0.55799,-0.01365 -1.01967,0.409805 -1.03091,0.949755 l -0.0959,4.606329 -0.49268,3.9272 -0.61587,-0.0151 0.20981,-4.16128 -0.2584,-4.907139 c -0.005,-0.746227 -0.48298,-1.6503 -1.32961,-1.618736 -0.60532,-0.01485 -1.51434,0.261801 -1.4368,1.629932 l 0.28489,5.026533 -0.17833,4.02179 -0.54425,-0.0134 -0.18387,-3.65537 -0.7522,-4.261314 c -0.0619,-0.666732 -0.22739,-1.609002 -1.23315,-1.629571 z"
+       id="path4216"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cscccsccscssascccsscsccccccsccccczc"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       ry="0"
+       y="89.73317"
+       x="148.68628"
+       height="26.710297"
+       width="20.336248"
+       id="rect4218"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4220"
+       width="20.336248"
+       height="26.710297"
+       x="148.68628"
+       y="89.73317"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <path
+       inkscape:export-ydpi="96.18"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial_drag.png"
+       sodipodi:nodetypes="cscccsccscsszscccsscsccccccsccccczc"
+       inkscape:connector-curvature="0"
+       id="path4222"
+       d="m 155.56429,94.652144 c -1.00575,-0.02065 -1.39399,0.988111 -1.31895,1.870732 l 0.38205,4.493444 0.45566,6.46712 c 0.023,3.05189 -2.02143,-0.6928 -2.65391,-1.40533 -1.13327,-1.11728 -2.19428,-1.1798 -2.55649,-0.73728 -0.40466,0.49437 0.0375,1.87038 1.82608,3.97491 1.2715,2.12695 1.51592,3.8345 3.05864,5.38849 0.36569,0.36836 0.39666,0.94692 0.91796,0.9597 l 7.5001,0.18382 c 0.91252,-0.06 1.1685,-0.72485 1.52336,-1.56933 0.94903,-2.25846 2.09016,-7.21007 2.5883,-10.79858 0.11918,-0.85852 0.28485,-1.7658 0.29208,-2.58284 0.007,-0.81705 -0.26242,-1.362522 -0.94001,-1.348354 -0.87464,0.0183 -0.80807,1.298994 -1.30797,3.484764 l -0.90161,2.06086 -0.67221,-0.0977 c 0,0 0.25068,-1.87118 0.46656,-4.06689 0.16693,-1.697892 0.2511,-3.540151 0.24438,-4.911009 -0.004,-0.869452 -0.79004,-1.256988 -1.24672,-1.266487 -0.55799,-0.01365 -0.96972,0.413165 -1.03091,0.949755 l -0.55582,4.874611 -0.49269,3.9272 -0.61587,-0.0151 0.20982,-4.16128 0.20151,-5.175421 c -0.005,-0.746227 -0.48299,-1.650301 -1.32962,-1.618735 -0.60531,-0.01485 -1.39151,0.260353 -1.43678,1.629932 l -0.17504,5.294814 -0.17832,4.02179 -0.54426,-0.0134 -0.18386,-3.65537 -0.29228,-4.529596 c -0.0619,-0.666733 -0.22741,-1.609002 -1.23317,-1.629572 z"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.28679633;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.73900003;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#radialGradient862);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.74941677;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect846"
+       width="24.680321"
+       height="22.383545"
+       x="98.398514"
+       y="64.669342"
+       ry="2.3366942"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/tutorial_drop_indicator.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       rx="6.3370357"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b97a51;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.87921047;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect4055"
+       width="346.2803"
+       height="94.890884"
+       x="-24.59551"
+       y="-52.448418"
+       ry="6.3370357" />
+    <rect
+       ry="0"
+       y="-39.469452"
+       x="277.53574"
+       height="46.566666"
+       width="35.454166"
+       id="rect6225"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect6221"
+       width="35.454166"
+       height="46.566666"
+       x="242.08162"
+       y="-39.469452"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect6217"
+       width="35.454166"
+       height="46.566666"
+       x="206.62743"
+       y="-39.469452"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       ry="0"
+       y="-39.469452"
+       x="171.17328"
+       height="46.566666"
+       width="35.454166"
+       id="rect6207"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect6203"
+       width="35.454166"
+       height="46.566666"
+       x="135.71912"
+       y="-39.469452"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       ry="0"
+       y="-39.469452"
+       x="100.26493"
+       height="46.566666"
+       width="35.454166"
+       id="rect6199"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       ry="0"
+       y="-39.469452"
+       x="64.81076"
+       height="46.566666"
+       width="35.454166"
+       id="rect6194"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <rect
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:0.00392157;fill-rule:evenodd;stroke:#ffffff;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.95294118;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="rect6173"
+       width="35.454166"
+       height="46.566666"
+       x="29.3566"
+       y="-39.469452"
+       ry="0"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.76442309;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="ellipse6235"
+       cx="254.63936"
+       cy="-26.684729"
+       rx="9.7246037"
+       ry="8.1467829"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       ry="7.8129749"
+       rx="9.3261461"
+       cy="-26.684729"
+       cx="219.24336"
+       id="ellipse6231"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.02287197;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.76442309;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.99216795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.76442309;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="ellipse6229"
+       cx="219.24336"
+       cy="-26.684729"
+       rx="4.1679254"
+       ry="3.4916787"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.83475643;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.90384617;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="path6211"
+       cx="148.70667"
+       cy="-26.684729"
+       rx="4.1679254"
+       ry="3.4916787"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       ry="3.4916787"
+       rx="4.1679254"
+       cy="-27.382299"
+       cx="183.98718"
+       id="ellipse6213"
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.99216795;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.8557692;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <ellipse
+       style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:0.88699335;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.76442309;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+       id="ellipse6215"
+       cx="183.98718"
+       cy="-27.382299"
+       rx="8.0872574"
+       ry="6.7750974"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18" />
+    <g
+       id="g13227"
+       style="fill:#d4ff2a;stroke:#000000"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/hand_tutorial.png"
+       inkscape:export-xdpi="96.18"
+       inkscape:export-ydpi="96.18">
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz"
+         inkscape:connector-curvature="0"
+         id="rect6153"
+         d="m 42.469645,-32.244869 c -1.753791,0.007 -2.218854,1.243321 -2.218854,2.787631 v 21.2194398 l -0.445437,-2.4171108 c -0.02162,-0.359141 -0.139361,-0.965489 -0.763561,-1.695228 -4.929727,-3.15836 -7.164361,-0.972791 -2.466679,4.4933788 0.583671,4.922369 2.464904,10.598481 3.841533,11.786709 v 0.28943 c 0,0.90493 0.731787,1.63341 1.640885,1.63341 h 14.544972 c 0.434345,0 0.8271,-0.167539 1.120039,-0.43993 0.0585,0.0714 0.115451,0.0728 0.169402,-0.02421 l 1.298549,-2.336099 c 0.413292,-0.74364 1.545542,-3.71597202 1.570601,-4.55995 0.07268,-2.449902 2.113909,-13.9570618 -2.304325,-13.7452998 -0.87262,0 -1.575144,0.67986 -1.575144,1.524198 v 0.685562 c -0.09085,-0.01551 -0.237842,0.0604 -0.279122,-0.02522 h -0.248793 v -1.097849 c -0.04253,-1.363191 -1.635115,-3.18602 -3.064839,-3.08057 -0.9731,0 -1.756177,0.757791 -1.756177,1.699339 v 2.47908 h -1.074036 v -3.384108 c -0.04063,-1.300371 -1.441442,-2.855632 -2.915663,-2.764451 -1.055616,0 -1.905352,0.822349 -1.905352,1.84381 v 4.304749 h -0.94914 v -16.389251 c -0.136454,-1.159379 -0.465066,-2.79457 -2.218859,-2.78746 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 77.92381,-31.193089 c -1.75379,0.007 -2.21885,1.24332 -2.21885,2.78763 v 21.2194508 l -0.445439,-2.417119 c -0.02162,-0.35914 -0.139362,-0.9654908 -0.763561,-1.6952308 -4.929728,-3.15836 -7.164362,-0.97279 -2.466679,4.4933898 0.583671,4.922369 2.464903,9.546691 3.841529,10.734919 v 0.28943 c 0,0.90493 0.73179,1.63341 1.64089,1.63341 h 14.54497 c 0.43435,0 0.8271,-0.167539 1.12004,-0.43993 0.0585,0.0714 0.11545,0.0728 0.1694,-0.02421 l 1.29855,-2.336099 c 0.41329,-0.74364 1.54555,-3.71597202 1.5706,-4.55995 0.0727,-2.449902 2.11391,-12.9052798 -2.30432,-12.6935208 -0.87262,0 -1.57515,0.67986 -1.57515,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18367,-0.02519 -0.27912,-0.02519 h -0.24879 v -1.097848 c -0.0425,-1.363189 -1.63512,-3.18602 -3.06484,-3.08057 -0.9731,0 -1.75618,0.757791 -1.75618,1.69934 v 2.479079 h -1.07403 v -3.384108 c -0.0406,-1.300361 -1.44145,-2.855632 -2.91567,-2.764451 -1.05561,0 -1.90535,0.822351 -1.90535,1.84381 v 4.304749 h -0.94914 v -16.389192 c -0.13645,-1.15937 -0.46507,-2.794569 -2.21886,-2.78746 z"
+         id="path6197"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 113.37798,-29.089518 c -1.75379,0.007 -2.21886,1.243319 -2.21886,2.787629 v 19.1158808 l -0.44543,-2.417119 c -0.0216,-0.35914 -0.13936,-0.9654908 -0.76356,-1.6952308 -4.92973,-3.15836 -7.16436,-0.97279 -2.46668,4.4933898 0.58367,4.922369 2.4649,9.546691 3.84153,10.734919 v 0.28943 c 0,0.90493 0.73179,1.63341 1.64089,1.63341 h 14.54497 c 0.43434,0 0.8271,-0.167539 1.12004,-0.43993 0.0585,0.0714 0.11545,0.0728 0.1694,-0.02421 l 1.29855,-2.336099 c 0.41329,-0.74364 1.54554,-3.71597202 1.5706,-4.55995 0.0727,-2.449902 2.11391,-12.9052798 -2.30433,-12.6935208 -0.87261,0 -1.57514,0.67986 -1.57514,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18367,-0.02519 -0.27912,-0.02519 h -0.24879 v -1.097848 c -0.0425,-1.363189 -1.63512,-3.18602 -3.06484,-3.08057 -0.9731,0 -1.75618,0.757791 -1.75618,1.69934 v 2.479079 h -1.07404 v -3.384108 c -0.0406,-1.300361 -1.44144,-2.855632 -2.91566,-2.764451 -1.05561,0 -1.90535,0.822351 -1.90535,1.84381 v 4.304749 h -0.94914 v -14.285611 c -0.13645,-1.159391 -0.46507,-2.794571 -2.21886,-2.787471 z"
+         id="path6201"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz"
+         inkscape:connector-curvature="0"
+         id="path6205"
+         d="m 148.72649,-28.563628 c -1.75379,0.007 -2.21886,1.24332 -2.21886,2.78763 v 18.5899898 l -0.44543,-2.417119 c -0.0217,-0.35914 -0.13936,-0.9654908 -0.76356,-1.6952308 -4.92973,-3.15836 -7.16436,-0.97279 -2.46668,4.4933898 0.58367,4.922369 2.4649,9.546691 3.84153,10.734919 v 0.28943 c 0,0.90493 0.73179,1.63341 1.64089,1.63341 h 14.54495 c 0.43434,0 0.8271,-0.167539 1.12004,-0.43993 0.0585,0.0714 0.11545,0.0728 0.1694,-0.02421 l 1.29855,-2.336099 c 0.41329,-0.74364 1.54554,-3.71597202 1.5706,-4.55995 0.0727,-2.449902 2.11391,-12.9052798 -2.30433,-12.6935208 -0.87262,0 -1.57514,0.67986 -1.57514,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18367,-0.02519 -0.27912,-0.02519 h -0.2488 v -1.097848 c -0.0425,-1.363189 -1.63511,-3.18602 -3.06483,-3.08057 -0.97311,0 -1.75618,0.757791 -1.75618,1.69934 v 2.479079 h -1.07404 v -3.384108 c -0.0406,-1.300361 -1.44144,-2.855632 -2.91566,-2.764451 -1.05562,0 -1.90533,0.822351 -1.90533,1.84381 v 4.304749 h -0.94914 v -13.75973 c -0.13645,-1.159369 -0.46507,-2.794569 -2.21886,-2.787459 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz"
+         inkscape:connector-curvature="0"
+         id="path6219"
+         d="m 219.46147,-29.089518 c -1.75379,0.007 -2.21886,1.243319 -2.21886,2.787629 v 19.1158808 l -0.44544,-2.417119 c -0.0217,-0.35914 -0.13936,-0.9654908 -0.76355,-1.6952308 -4.92973,-3.15836 -7.16436,-0.97279 -2.46668,4.4933898 0.58367,4.922369 2.4649,9.546691 3.84153,10.734919 v 0.28943 c 0,0.90493 0.73179,1.63341 1.64088,1.63341 h 14.54497 c 0.43435,0 0.82711,-0.167539 1.12005,-0.43993 0.0585,0.0714 0.11545,0.0728 0.1694,-0.02421 l 1.29855,-2.336099 c 0.41329,-0.74364 1.54554,-3.71597202 1.5706,-4.55995 0.0727,-2.449902 2.11391,-12.9052798 -2.30433,-12.6935208 -0.87262,0 -1.57514,0.67986 -1.57514,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18367,-0.02519 -0.27913,-0.02519 h -0.24879 v -1.097848 c -0.0425,-1.363189 -1.63511,-3.18602 -3.06484,-3.08057 -0.9731,0 -1.75617,0.757791 -1.75617,1.69934 v 2.479079 h -1.07404 v -3.384108 c -0.0406,-1.300361 -1.44144,-2.855632 -2.91566,-2.764451 -1.05562,0 -1.90535,0.822351 -1.90535,1.84381 v 4.304749 h -0.94915 v -14.285611 c -0.13645,-1.159391 -0.46506,-2.794571 -2.21885,-2.787471 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz"
+         inkscape:connector-curvature="0"
+         id="path6223"
+         d="m 254.91564,-31.193089 c -1.75379,0.007 -2.21885,1.24332 -2.21885,2.78763 v 21.2194508 l -0.44545,-2.417119 c -0.0217,-0.35914 -0.13936,-0.9654908 -0.76356,-1.6952308 -4.92972,-3.15836 -7.16436,-0.97279 -2.46666,4.4933898 0.58367,4.922369 2.46489,9.546691 3.84151,10.734919 v 0.28943 c 0,0.90493 0.73181,1.63341 1.6409,1.63341 h 14.54496 c 0.43434,0 0.82712,-0.167539 1.12006,-0.43993 0.0585,0.0714 0.11544,0.0728 0.16939,-0.02421 l 1.29855,-2.336099 c 0.4133,-0.74364 1.54553,-3.71597202 1.57059,-4.55995 0.0727,-2.449902 2.11392,-12.9052798 -2.30431,-12.6935208 -0.87262,0 -1.57514,0.67986 -1.57514,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18368,-0.02519 -0.27914,-0.02519 h -0.24879 v -1.097848 c -0.0425,-1.363189 -1.63512,-3.18602 -3.06482,-3.08057 -0.97311,0 -1.7562,0.757791 -1.7562,1.69934 v 2.479079 h -1.07402 v -3.384108 c -0.0406,-1.300361 -1.44145,-2.855632 -2.91566,-2.764451 -1.05563,0 -1.90537,0.822351 -1.90537,1.84381 v 4.304749 h -0.94914 v -16.389192 c -0.13645,-1.15937 -0.46506,-2.794569 -2.21885,-2.78746 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         inkscape:export-ydpi="96.18"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 290.0908,-32.244869 c -1.75379,0.007 -2.21887,1.243321 -2.21887,2.787631 v 21.2194398 l -0.44543,-2.4171108 c -0.0217,-0.359141 -0.13938,-0.965489 -0.76356,-1.695228 -4.92974,-3.15836 -7.16436,-0.972791 -2.46668,4.4933788 0.58367,4.922369 2.46491,10.598481 3.84154,11.786709 v 0.28943 c 0,0.90493 0.73178,1.63341 1.64089,1.63341 h 14.54497 c 0.43434,0 0.82708,-0.167539 1.12003,-0.43993 0.0585,0.0714 0.11546,0.0728 0.16941,-0.02421 l 1.29855,-2.336099 c 0.41328,-0.74364 1.54554,-3.71597202 1.57059,-4.55995 0.0727,-2.449902 2.11392,-13.9570618 -2.30433,-13.7452998 -0.87262,0 -1.57515,0.67986 -1.57515,1.524198 v 0.685562 c -0.0908,-0.01551 -0.23783,0.0604 -0.2791,-0.02522 h -0.24882 v -1.097849 c -0.0425,-1.363191 -1.6351,-3.18602 -3.06483,-3.08057 -0.97311,0 -1.75617,0.757791 -1.75617,1.699339 v 2.47908 h -1.07405 v -3.384108 c -0.0406,-1.300371 -1.44142,-2.855632 -2.91565,-2.764451 -1.05561,0 -1.90535,0.822349 -1.90535,1.84381 v 4.304749 h -0.94914 v -16.389251 c -0.13647,-1.159379 -0.46508,-2.79457 -2.21885,-2.78746 z"
+         id="path6227"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz" />
+      <path
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#d4ff2a;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.952941;paint-order:fill markers stroke;filter:url(#filter3161);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 184.02184,-28.563628 c -1.7538,0.007 -2.21887,1.24332 -2.21887,2.78763 v 18.5899898 l -0.44543,-2.417119 c -0.0217,-0.35914 -0.13936,-0.9654908 -0.76356,-1.6952308 -4.9297,-3.15836 -7.16429,-0.97279 -2.46668,4.4933898 0.58367,4.922369 2.4649,9.546691 3.84153,10.734919 v 0.28943 c 0,0.90493 0.7318,1.63341 1.6409,1.63341 h 14.54497 c 0.43435,0 0.8271,-0.167539 1.12004,-0.43993 0.0585,0.0714 0.11545,0.0728 0.1694,-0.02421 l 1.29855,-2.336099 c 0.41329,-0.74364 1.54554,-3.71597202 1.5706,-4.55995 0.0727,-2.449902 2.11391,-12.9052798 -2.30433,-12.6935208 -0.87261,0 -1.57514,0.67986 -1.57514,1.524201 v 0.68556 c -0.0908,-0.01551 -0.18367,-0.02519 -0.27912,-0.02519 h -0.24879 v -1.097848 c -0.0425,-1.363189 -1.63512,-3.18602 -3.06484,-3.08057 -0.9731,0 -1.75618,0.757791 -1.75618,1.69934 v 2.479079 h -1.07403 v -3.384108 c -0.0406,-1.300361 -1.44145,-2.855632 -2.91567,-2.764451 -1.05561,0 -1.90533,0.822351 -1.90533,1.84381 v 4.304749 h -0.94915 v -13.75973 c -0.13646,-1.159369 -0.46507,-2.794569 -2.21887,-2.787459 z"
+         id="path6261"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="zscccccssscccccscscccsccccscccz"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ctpuzzle-test-platform/assets/ct/hand_tutorial.png"
+         inkscape:export-xdpi="96.18"
+         inkscape:export-ydpi="96.18" />
+    </g>
+  </g>
+</svg>

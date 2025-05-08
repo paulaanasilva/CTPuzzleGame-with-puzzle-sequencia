@@ -1,0 +1,820 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg2880"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   sodipodi:docname="post_face.svg">
+  <defs
+     id="defs2874">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4507"
+       id="linearGradient3134"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(2.4419826,0,0,2.4418776,-1253.2157,-279.22931)"
+       x1="639.90308"
+       y1="97.355347"
+       x2="637.9931"
+       y2="97.305733" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4507">
+      <stop
+         style="stop-color:#11cd11;stop-opacity:1;"
+         offset="0"
+         id="stop4503" />
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1"
+         offset="1"
+         id="stop4505" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter1895">
+      <feGaussianBlur
+         stdDeviation="0.61 0.58"
+         result="blur"
+         id="feGaussianBlur1893" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter1891">
+      <feGaussianBlur
+         stdDeviation="0.61 0.58"
+         result="blur"
+         id="feGaussianBlur1889" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter1825">
+      <feGaussianBlur
+         stdDeviation="0.61 0.58"
+         result="blur"
+         id="feGaussianBlur1823" />
+    </filter>
+    <linearGradient
+       gradientTransform="matrix(0.84032051,0,0,0.84031609,-153.02672,-33.980681)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient934"
+       id="linearGradient1580"
+       gradientUnits="userSpaceOnUse"
+       x1="454.63754"
+       y1="233.89017"
+       x2="444.38107"
+       y2="234.22424" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient934">
+      <stop
+         style="stop-color:#b3b3b3;stop-opacity:1;"
+         offset="0"
+         id="stop930" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop932" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="matrix(0.84032051,0,0,0.84031609,-153.02672,-33.980681)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient944"
+       id="linearGradient1582"
+       gradientUnits="userSpaceOnUse"
+       x1="446.98651"
+       y1="225.82925"
+       x2="451.36865"
+       y2="225.91194" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient944">
+      <stop
+         style="stop-color:#918a6f;stop-opacity:1;"
+         offset="0"
+         id="stop940" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1"
+         offset="1"
+         id="stop942" />
+    </linearGradient>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Blur"
+       id="filter6798">
+      <feGaussianBlur
+         stdDeviation="0.61 0.58"
+         result="blur"
+         id="feGaussianBlur6796" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="384.83642"
+     inkscape:cy="635.24396"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata2877">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g3589"
+       transform="matrix(1.8255807,0,0,1.8255807,965.51045,4.5784406)"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351"
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)">
+      <path
+         id="path3577"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         inkscape:connector-curvature="0"
+         style="fill:#9e7758;stroke-width:0.16017058" />
+      <path
+         id="path3579"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         inkscape:connector-curvature="0"
+         style="fill:#bb8d5d;stroke-width:0.16017058" />
+      <path
+         id="path3581"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;stroke-width:0.16017058" />
+      <path
+         id="path3583"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058" />
+      <path
+         id="path3585"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#c1b868;stroke-width:0.16017058" />
+      <path
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         id="path3587" />
+    </g>
+    <g
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)"
+       inkscape:export-ydpi="95.638351"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       transform="matrix(1.8255807,0,0,1.8255807,941.35954,16.653908)"
+       id="g3631">
+      <path
+         style="fill:#9e7758;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         id="path3619" />
+      <path
+         style="fill:#bb8d5d;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         id="path3621" />
+      <path
+         style="fill:#cdc687;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         id="path3623" />
+      <path
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         id="path3625" />
+      <path
+         style="fill:#c1b868;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         id="path3627" />
+      <path
+         id="path3629"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058" />
+    </g>
+    <g
+       inkscape:export-ydpi="95.638351"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       transform="matrix(1.4850318,0,0,1.4850956,-819.76155,-57.319318)"
+       id="g3132"
+       style="opacity:1;stroke-width:2.44193006;filter:url(#filter3161)">
+      <path
+         style="fill:#9e7758;fill-opacity:1;fill-rule:evenodd;stroke:#9e7758;stroke-width:0.64609402px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 634.24349,93.494146 c -0.0829,-0.167589 0.14147,-0.422997 -0.32845,-0.480025 l -10.19047,3.820408 c -0.27104,0.187413 -0.30249,0.374827 -0.3638,0.56224 l -2.57401,15.143381 c 0.13188,0.54303 0.38237,0.25587 0.59531,0.23151 l 12.7,-8.40052 z"
+         id="path3074"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc" />
+      <path
+         style="fill:#000000;fill-opacity:0.41935485;fill-rule:evenodd;stroke:none;stroke-width:0.64609402px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 620.96297,113.30149 11.13372,5.3056 12.84534,-6.11913 -11.95861,-5.42792 z"
+         id="path3076"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#c59d76;fill-opacity:1;fill-rule:evenodd;stroke:#c59d76;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 621.16162,112.33811 2.54381,-15.114995 11.72695,5.364835 -2.64331,15.14256 z"
+         id="path3078"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#c2a97f;fill-opacity:1;fill-rule:evenodd;stroke:#c2a97f;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 623.70543,97.223115 10.37438,-4.07976 11.74119,4.560168 -10.38862,4.884427 z"
+         id="path3080"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#f6d2af;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 624.80924,104.23095 c 0.41277,-2.51959 3.16333,-1.07761 2.97003,1.09914 z"
+         id="path3082"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path3084"
+         d="m 628.62145,105.6174 c 0.96466,-3.16763 3.98978,-0.32153 3.47297,1.28527 z"
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#f6d2af;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#f6d2af;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 630.14264,109.27328 c -0.53068,3.41936 -5.59937,2.02624 -5.07632,-1.68283 z"
+         id="path3086"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccc" />
+      <path
+         style="fill:#58cffc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 629.60164,98.32919 2.12378,-1.011033 2.06964,0.912057 -2.24066,1.011033 z"
+         id="path3088"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#58cffc;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 629.60164,98.32919 -0.11692,0.724968 2.04629,0.982212 0.0234,-0.795123 z"
+         id="path3090"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#09759f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 631.53683,100.01883 2.30939,-1.075756 -0.076,-0.719122 -2.21581,1.017295 z"
+         id="path3092"
+         inkscape:connector-curvature="0" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3094"
+         d="m 635.55359,95.587257 1.80205,-0.857876 1.75612,0.773894 -1.90123,0.857874 z"
+         style="fill:#fc58e7;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3096"
+         d="m 635.55359,95.587257 -0.0992,0.615146 1.73631,0.833424 0.0198,-0.674678 z"
+         style="fill:#fd8eef;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3098"
+         d="m 637.19562,97.020943 1.95955,-0.912797 -0.0645,-0.610185 -1.88015,0.863188 z"
+         style="fill:#a52695;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3100"
+         d="m 630.10203,95.410102 1.76201,-0.838815 1.7171,0.756698 -1.85899,0.838813 z"
+         style="fill:#fce758;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3102"
+         d="m 630.10203,95.410102 -0.097,0.601476 1.69772,0.814906 0.0194,-0.659686 z"
+         style="fill:#fcf758;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3104"
+         d="m 631.70757,96.811931 1.91601,-0.892515 -0.063,-0.596626 -1.83835,0.844008 z"
+         style="fill:#ac980e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#fc6358;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 635.9443,98.207787 2.04625,-0.97413 1.9941,0.878766 -2.15888,0.974128 z"
+         id="path3106"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#fc776e;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 635.9443,98.207787 -0.11265,0.698505 1.97159,0.946364 0.0225,-0.766105 z"
+         id="path3108"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="fill:#aa1a10;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 637.80884,99.835755 2.2251,-1.036493 -0.0732,-0.692872 -2.1349,0.980161 z"
+         id="path3110"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:url(#linearGradient3134);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 632.98241,96.632079 0.008,0.744141 c 0.14453,0.854282 2.90061,0.79619 3.05925,0.157096 l -10e-6,-0.926041 z"
+         id="path3112"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <ellipse
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#0ff00f;fill-opacity:1;fill-rule:evenodd;stroke:#f6d2af;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="ellipse3114"
+         cx="634.52295"
+         cy="96.650574"
+         rx="1.5317885"
+         ry="0.53787994" />
+      <path
+         style="fill:#c59d76;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 623.33832,100.06044 -0.56126,-0.175388 -0.51449,2.899878 0.65479,0.18709 z"
+         id="path3116"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3118"
+         d="m 622.18997,107.27699 -0.56126,-0.17539 -0.51449,2.89987 0.65479,0.18709 z"
+         style="fill:#c59d76;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#391f06;fill-opacity:1;fill-rule:evenodd;stroke:#f6d2af;stroke-width:0;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="ellipse3120"
+         cx="656.34198"
+         cy="112.89371"
+         rx="3.5955272"
+         ry="4.4993148"
+         transform="matrix(1,0,-0.15562589,0.98781607,0,0)" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="path3122"
+         d="m 646.28202,97.956901 c -0.0829,-0.16759 0.14147,-0.423 -0.32845,-0.48003 l -11.01729,4.316509 c -0.27104,0.18741 -0.30249,0.37483 -0.3638,0.56224 l -2.57401,15.14338 c 0.13188,0.54303 0.38237,0.25587 0.59531,0.23151 l 12.04118,-5.749 c 0.35569,-0.1863 0.45993,-0.5989 0.50673,-1.0632 z"
+         style="fill:#9e7758;fill-opacity:1;fill-rule:evenodd;stroke:#9e7758;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#bc936c;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 635.22449,103.80672 -0.46774,3.32082 0.72497,-0.30406 0.53789,-3.2039 z"
+         id="path3124"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3126"
+         d="m 633.72778,110.8927 -0.58066,3.31847 0.77174,-0.0702 0.60404,-3.27171 z"
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#bc936c;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path3128"
+         d="m 644.98955,100.46339 -0.2332,3.02597 0.59379,-0.2394 0.37469,-3.05348 z"
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#bc936c;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="fill:#f6d2af;fill-opacity:1;fill-rule:evenodd;stroke:#bc936c;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 644.39684,107.23025 -0.24895,2.7577 0.70387,-0.064 0.27028,-2.98399 z"
+         id="path3130"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccc" />
+    </g>
+    <g
+       id="g3617"
+       transform="matrix(1.8255807,0,0,1.8255807,965.51045,28.729352)"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351"
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)">
+      <path
+         id="path3605"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         inkscape:connector-curvature="0"
+         style="fill:#9e7758;stroke-width:0.16017058" />
+      <path
+         id="path3607"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         inkscape:connector-curvature="0"
+         style="fill:#bb8d5d;stroke-width:0.16017058" />
+      <path
+         id="path3609"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;stroke-width:0.16017058" />
+      <path
+         id="path3611"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058" />
+      <path
+         id="path3613"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#c1b868;stroke-width:0.16017058" />
+      <path
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         id="path3615" />
+    </g>
+    <g
+       transform="matrix(1.6518846,0,0,1.6518846,38.870326,-364.95572)"
+       id="g6739"
+       style="stroke-width:0.60536915"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351">
+      <rect
+         transform="scale(-1,1)"
+         inkscape:export-ydpi="95.742599"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         ry="0"
+         y="286.68039"
+         x="-60.814198"
+         height="21.450188"
+         width="24.376522"
+         id="rect6721"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:0.05479455;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96347034;paint-order:stroke markers fill;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+      <path
+         id="path6723"
+         d="m 48.625921,308.06852 -10.931581,-5.4658 -0.534539,-4.36742 0.534539,-4.1561 10.931581,5.4658 z"
+         inkscape:connector-curvature="0"
+         style="fill:#d27317;fill-opacity:1;stroke-width:0.1587289"
+         sodipodi:nodetypes="cccccc"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-ydpi="95.742599" />
+      <path
+         id="path6725"
+         d="m 37.69434,294.0792 3.214766,-1.07618 4.471785,-3.00157 3.144804,-0.35237 3.791941,0.39258 7.239875,4.03754 -10.93159,5.4658 -2.839122,-0.58435 -5.576572,-3.43334 z"
+         inkscape:connector-curvature="0"
+         style="fill:#de9d5d;fill-opacity:1;stroke-width:0.1587289"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-ydpi="95.742599"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         id="path6727"
+         d="m 59.557511,294.0792 v 8.52352 l -10.93159,5.4658 V 299.545 Z"
+         inkscape:connector-curvature="0"
+         style="fill:#ac5719;fill-opacity:1;stroke-width:0.1587289"
+         sodipodi:nodetypes="ccccc"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-ydpi="95.742599" />
+      <path
+         inkscape:export-ydpi="95.742599"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         inkscape:connector-curvature="0"
+         id="path6729"
+         d="m 43.914082,304.92645 v -0.37797 l -1.700895,-2.95294 1.063059,-0.94495 -0.921316,-2.36235 0.354351,-1.29929 0.118118,-0.37797 4.063246,-1.65365 6.779948,-1.25205 -4.606587,0.59059 -1.653646,0.33073 -0.68508,-1.88988 0.826823,-0.94494 1.157552,-0.42522 -0.283482,-0.33073 -0.826823,0.42522 -0.708705,0.61421 -0.472472,0.59059 0.73233,1.96075 -0.543341,0.35435 -3.992374,1.41741 -0.212612,0.0945 -0.236236,1.67727 -1.748139,-1.15756 0.779577,-1.01581 -1.228424,1.08669 2.126118,1.29929 0.897691,2.33873 -1.41741,0.96856 1.228424,1.37016 -1.181177,0.77958 1.204799,-0.51972 z"
+         style="opacity:0.55199998;fill:#2b0000;fill-rule:evenodd;stroke:none;stroke-width:0.16017058px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         style="opacity:0.55199998;fill:#2b0000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.16017058px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 54.039117,296.84721 0.85045,0.25986 -0.35436,2.66946 -0.89769,-0.99219 0.0945,-0.61421 -0.42523,0.7087 -3.543525,1.2048 1.960755,-0.47247 1.55915,-0.56696 1.2048,0.87407 -1.39379,2.07887 -3.354539,0.28348 3.378159,0.16536 -1.6064,0.96857 1.7009,0.63783 -3.708895,2.29148 4.039625,-2.62221 -0.94494,-0.51972 0.75595,-0.85044 0.66146,-1.53553 1.63002,3.44903 0.188987,0.42523 -0.425227,-1.34654 -1.22842,-2.62221 0.4961,-1.01581 3.519897,-1.44104 -0.0709,-2.43322 -0.21261,-0.87407 -3.661647,-0.59059 3.165547,0.73233 0.4016,0.42522 0.14174,2.74033 -3.047427,1.18118 0.21261,-2.59859 z"
+         id="path6731"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/block_sprite.png"
+         inkscape:export-xdpi="95.742599"
+         inkscape:export-ydpi="95.742599" />
+    </g>
+    <g
+       id="g3790"
+       transform="matrix(1.8255807,0,0,1.8255807,989.66133,40.804856)"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351"
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)">
+      <path
+         id="path3778"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         inkscape:connector-curvature="0"
+         style="fill:#9e7758;stroke-width:0.16017058" />
+      <path
+         id="path3780"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         inkscape:connector-curvature="0"
+         style="fill:#bb8d5d;stroke-width:0.16017058" />
+      <path
+         id="path3782"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;stroke-width:0.16017058" />
+      <path
+         id="path3784"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058" />
+      <path
+         id="path3786"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#c1b868;stroke-width:0.16017058" />
+      <path
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         id="path3788" />
+    </g>
+    <g
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)"
+       inkscape:export-ydpi="95.638351"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       transform="matrix(1.8255807,0,0,1.8255807,965.51043,52.880306)"
+       id="g3804">
+      <path
+         style="fill:#9e7758;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         id="path3792" />
+      <path
+         style="fill:#bb8d5d;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         id="path3794" />
+      <path
+         style="fill:#cdc687;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         id="path3796" />
+      <path
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         id="path3798" />
+      <path
+         style="fill:#c1b868;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         id="path3800" />
+      <path
+         id="path3802"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058" />
+    </g>
+    <g
+       id="g6924"
+       transform="matrix(1.1900221,0,0,1.1900284,-17.130853,-37.006839)"
+       style="stroke-width:0.84031832"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351">
+      <rect
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.01000001;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:0.05479455;fill-rule:evenodd;stroke:#000000;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.96347034;paint-order:stroke markers fill;filter:url(#filter4049);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         id="rect1544"
+         width="24.376522"
+         height="39.40406"
+         x="-127.78193"
+         y="130.10344"
+         ry="0"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-ydpi="95.638351"
+         transform="scale(-1,1)" />
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         transform="matrix(1.1628289,0,0,1.1628289,-55.050449,-92.552422)"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#55d400;stroke-width:0.21361978;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter1825);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         d="m 145.61503,201.8252 a 5.295538,2.6674225 0 0 0 -5.2953,2.66754 5.295538,2.6674225 0 0 0 0.007,0.0744 c -0.0428,0.13582 -0.0682,0.2834 -0.0682,0.43874 v 15.54168 c 0,0.18612 0.0369,0.35961 0.0971,0.51625 a 5.3334501,3.1668614 0 0 0 1.19425,1.52342 v 0.0434 c 0.16338,0.17457 0.41344,0.3295 0.92553,0.4687 a 5.3334501,3.1668614 0 0 0 3.13986,0.61134 5.3334501,3.1668614 0 0 0 3.60391,-0.84078 c 0.89166,-0.18869 1.22926,-0.81471 1.44177,-1.04179 l -0.004,-0.27441 a 5.3334501,3.1668614 0 0 0 0.20619,-0.46405 c 0.0667,-0.16307 0.10801,-0.34561 0.10801,-0.54209 v -15.54168 c 0,-0.15346 -0.0248,-0.2991 -0.0667,-0.43357 a 5.295538,2.6674225 0 0 0 0.006,-0.0796 5.295538,2.6674225 0 0 0 -5.29579,-2.66754 z"
+         id="path1831"
+         inkscape:connector-curvature="0" />
+      <g
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         id="g1578"
+         transform="matrix(0.96080487,0,0,0.96080487,-317.75438,-70.767292)"
+         style="stroke-width:0.84031832">
+        <ellipse
+           ry="3.7325149"
+           rx="8.598959"
+           cy="243.20436"
+           cx="451.02609"
+           id="ellipse1546"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.09615383;fill-rule:nonzero;stroke:none;stroke-width:0;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <rect
+           rx="0.25639397"
+           transform="rotate(-90)"
+           ry="0.25639531"
+           y="447.86966"
+           x="-227.59683"
+           height="3.3364408"
+           width="2.1026065"
+           id="rect1548"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#20fe44;fill-opacity:1;fill-rule:nonzero;stroke:#fffffe;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery.png"
+           inkscape:export-xdpi="95.638351"
+           inkscape:export-ydpi="95.638351" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path1550"
+           d="m 444.95363,225.49439 c -0.54891,0 -0.99056,0.55288 -0.99056,1.24004 v 16.17568 c 0,0.19371 0.038,0.3747 0.10073,0.53773 a 5.5510232,3.2960504 0 0 0 5.47418,2.75452 5.5510232,3.2960504 0 0 0 5.46234,-2.72809 c 0.0694,-0.16972 0.11258,-0.35967 0.11258,-0.56416 v -16.17568 c 0,-0.68716 -0.44202,-1.24004 -0.99093,-1.24004 z"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient1580);fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <ellipse
+           ry="2.7762375"
+           rx="5.5115643"
+           cy="226.20067"
+           cx="449.53787"
+           id="ellipse1552"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#fefefd;fill-opacity:1;fill-rule:nonzero;stroke:#cccccc;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <ellipse
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#b9b9b8;fill-opacity:1;fill-rule:nonzero;stroke:#f9f9f9;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="ellipse1554"
+           cx="449.53787"
+           cy="225.85417"
+           rx="3.9203188"
+           ry="1.9482682" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path1556"
+           d="m 448.2472,223.89507 c -0.40954,0 -0.73905,0.32847 -0.73905,0.73672 v 0.93143 c 0,0.29427 0.17258,0.5449 0.4216,0.66319 6.4e-4,4.2e-4 8.9e-4,8.8e-4 0.003,0.002 a 1.9112907,0.83979144 0 0 0 1.60575,0.38448 1.9112907,0.83979144 0 0 0 1.59719,-0.38007 c 0.25522,-0.1159 0.43266,-0.37049 0.43266,-0.66924 v -0.93144 c 0,-0.40825 -0.32978,-0.73672 -0.73933,-0.73672 z"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:url(#linearGradient1582);fill-opacity:1;fill-rule:nonzero;stroke:#918a6f;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <ellipse
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#928b70;fill-opacity:1;fill-rule:nonzero;stroke:#928b70;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           id="ellipse1558"
+           cx="449.53906"
+           cy="224.23286"
+           rx="1.8236426"
+           ry="0.61935735" />
+        <g
+           id="g1562"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.8777771px;line-height:100%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#26211e;fill-opacity:1;stroke:#26211e;stroke-width:0.30974972;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           transform="matrix(0,0.71899501,-0.71658026,0,130.89915,66.430034)"
+           aria-label="-" />
+        <path
+           sodipodi:nodetypes="csscccsscccccc"
+           inkscape:connector-curvature="0"
+           id="path1564"
+           d="m 444.03454,238.73893 c -0.0456,0.11448 -0.0715,0.23918 -0.0715,0.37043 v 4.41377 c 0,0.15526 0.038,0.30033 0.10072,0.431 0.44579,1.27372 2.76095,2.20743 5.47419,2.20775 2.69458,-0.001 4.99802,-0.92337 5.46234,-2.18657 0.0694,-0.13603 0.11257,-0.28828 0.11257,-0.45218 v -4.41377 c 0,-0.12834 -0.0251,-0.25023 -0.0689,-0.36263 0.003,0.025 0.004,0.05 0.006,0.0751 -10e-6,1.53328 -2.46763,2.77624 -5.51159,2.77623 -3.04396,1e-5 -5.51158,-1.24295 -5.51159,-2.77623 0.002,-0.0276 0.005,-0.0553 0.008,-0.0829 z"
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#241f1c;fill-opacity:0.99215686;fill-rule:nonzero;stroke:#b4b4b3;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+        <path
+           style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.98999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#2cff2c;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.22233421;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+           d="m 444.03454,239.79727 c -0.0456,0.11448 -0.0715,0.23918 -0.0715,0.37043 v 0.7096 c 0,0.15526 0.038,0.30033 0.10072,0.431 0.44579,1.27372 2.76095,2.20743 5.47419,2.20775 2.69458,-0.001 4.99802,-0.92337 5.46234,-2.18657 0.0694,-0.13603 0.11257,-0.28828 0.11257,-0.45218 v -0.7096 c 0,-0.12834 -0.0251,-0.25023 -0.0689,-0.36263 0.003,0.025 0.004,0.05 0.006,0.0751 -10e-6,1.53328 -2.46763,2.77624 -5.51159,2.77623 -3.04396,1e-5 -5.51158,-1.24295 -5.51159,-2.77623 0.002,-0.0276 0.005,-0.0553 0.008,-0.0829 z"
+           id="path1570"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="csscccsscccccc" />
+        <path
+           sodipodi:nodetypes="ccccc"
+           inkscape:connector-curvature="0"
+           id="path1572"
+           d="m 447.67157,225.90013 c -0.0454,-0.4762 -0.2051,-1.12993 0.0122,-1.50009 0.30619,0.63638 1.70883,0.61565 2.57496,0.53153 -1.01972,0.40333 -2.25289,0.30692 -2.49228,-0.0473 z"
+           style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:0.22233421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           sodipodi:nodetypes="cccccc"
+           inkscape:connector-curvature="0"
+           id="path1574"
+           d="m 445.33035,229.01249 v 0 l -0.0236,16.06588 c 0.2262,0.24171 0.61062,0.44661 1.58677,0.62582 l 0.0118,-16.42443 z"
+           style="fill:#ffffff;fill-opacity:0.27884617;fill-rule:evenodd;stroke:none;stroke-width:0.22233421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+        <path
+           style="fill:#000000;fill-opacity:0.09615383;fill-rule:evenodd;stroke:none;stroke-width:0.22233421px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           d="m 454.58242,227.55921 v 0 l 0.20735,16.68394 c -0.2262,0.24171 -0.587,0.91908 -1.56315,1.09829 l 0.0314,-16.8802 c 0.56437,-0.25971 0.95796,-0.57634 1.3244,-0.90203 z"
+           id="path1576"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="ccccccc" />
+      </g>
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         inkscape:connector-curvature="0"
+         id="path1835"
+         d="m 145.61503,201.8252 a 5.295538,2.6674225 0 0 0 -5.2953,2.66754 5.295538,2.6674225 0 0 0 0.007,0.0744 c -0.0428,0.13582 -0.0682,0.2834 -0.0682,0.43874 v 15.54168 c 0,0.18612 0.0369,0.35961 0.0971,0.51625 a 5.3334501,3.1668614 0 0 0 1.19425,1.52342 v 0.0434 c 0.16338,0.17457 0.41344,0.3295 0.92553,0.4687 a 5.3334501,3.1668614 0 0 0 3.13986,0.61134 5.3334501,3.1668614 0 0 0 3.60391,-0.84078 c 0.89166,-0.18869 1.22926,-0.81471 1.44177,-1.04179 l -0.004,-0.27441 a 5.3334501,3.1668614 0 0 0 0.20619,-0.46405 c 0.0667,-0.16307 0.10801,-0.34561 0.10801,-0.54209 v -15.54168 c 0,-0.15346 -0.0248,-0.2991 -0.0667,-0.43357 a 5.295538,2.6674225 0 0 0 0.006,-0.0796 5.295538,2.6674225 0 0 0 -5.29579,-2.66754 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.17399998;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#55d400;fill-opacity:1;fill-rule:nonzero;stroke:#55d400;stroke-width:0.21361978;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke;filter:url(#filter1825);color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+         transform="matrix(1.1628289,0,0,1.1628289,-55.050449,-92.552422)" />
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         style="fill:#e5ffd5;fill-opacity:1;fill-rule:evenodd;stroke:#99ff55;stroke-width:0.14962919;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 110.61617,137.20448 4.62988,5.74234 -0.91825,-2.6112 2.84395,0.42573 -5.57721,-9.57968 3.12665,7.53637 z"
+         id="path1634"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path1636"
+         d="m 116.54799,134.73421 -1.74188,-2.22311 0.28975,0.93942 -1.18735,-0.31541 1.99751,3.57945 -1.03785,-2.74003 z"
+         style="fill:#e5ffd5;fill-opacity:1;fill-rule:evenodd;stroke:#99ff55;stroke-width:0.05708702;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         sodipodi:nodetypes="ccccccc"
+         inkscape:connector-curvature="0"
+         id="path1863"
+         d="m 110.61617,137.20448 4.62988,5.74234 -0.91825,-2.6112 2.84395,0.42573 -5.57721,-9.57968 3.12665,7.53637 z"
+         style="fill:#e5ffd5;fill-opacity:1;fill-rule:evenodd;stroke:#99ff55;stroke-width:0.14962919;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1891)" />
+      <path
+         inkscape:export-ydpi="95.638351"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         style="fill:#e5ffd5;fill-opacity:1;fill-rule:evenodd;stroke:#99ff55;stroke-width:0.05708702;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;filter:url(#filter1895)"
+         d="m 116.54799,134.73421 -1.74188,-2.22311 0.28975,0.93942 -1.18735,-0.31541 1.99751,3.57945 -1.03785,-2.74003 z"
+         id="path1865"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccc" />
+      <path
+         style="opacity:0.98999999;fill:#2aff2a;fill-opacity:1;fill-rule:evenodd;stroke:#2aff2a;stroke-width:0.95194077;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 110.80682,158.073 v 0 l 2.27113,-3.47617 1.62244,1.27403 2.25859,-2.44571 -1.80938,3.63374 -2.05065,-1.5783 z"
+         id="path1052"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cccccccc"
+         inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/battery_sprite.png"
+         inkscape:export-xdpi="95.638351"
+         inkscape:export-ydpi="95.638351" />
+    </g>
+    <g
+       id="g3818"
+       transform="matrix(1.8255807,0,0,1.8255807,941.35954,64.955764)"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351"
+       style="opacity:1;stroke-width:0.60536915;filter:url(#filter3161)">
+      <path
+         id="path3806"
+         d="m -450.74361,59.373565 v 1.98437 l -13.22917,6.61459 v -1.98438 z"
+         inkscape:connector-curvature="0"
+         style="fill:#9e7758;stroke-width:0.16017058" />
+      <path
+         id="path3808"
+         d="m -463.97278,67.972525 -13.22916,-6.61459 v -1.98437 l 13.22916,6.61458 z"
+         inkscape:connector-curvature="0"
+         style="fill:#bb8d5d;stroke-width:0.16017058" />
+      <path
+         id="path3810"
+         d="m -477.20194,59.373565 v -1.98438 l 13.22916,6.61459 v 1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#cdc687;stroke-width:0.16017058" />
+      <path
+         id="path3812"
+         d="m -477.20194,57.389185 13.22916,-6.61458 13.22917,6.61458 -13.22917,6.61459 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ded7a4;fill-opacity:1;stroke-width:0.16017058" />
+      <path
+         id="path3814"
+         d="m -450.74361,57.389185 v 1.98438 l -13.22917,6.61458 v -1.98437 z"
+         inkscape:connector-curvature="0"
+         style="fill:#c1b868;stroke-width:0.16017058" />
+      <path
+         style="fill:#cdc687;fill-opacity:1;stroke-width:0.16017058"
+         inkscape:connector-curvature="0"
+         d="m -475.25064,57.389186 11.27786,-5.63893 11.27787,5.63893 -11.27787,5.638938 z"
+         id="path3816" />
+    </g>
+    <image
+       y="145.10515"
+       x="-108.69693"
+       id="image823"
+       xlink:href="data:image/png;base64,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 "
+       style="opacity:1;stroke-width:0.77856785;filter:url(#filter4049);image-rendering:optimizeQuality"
+       preserveAspectRatio="none"
+       height="28.546003"
+       width="28.546003"
+       inkscape:export-filename="/home/cassiano/projetos/workspace-visualcode/ct-puzzle-game/assets/ct/path.png"
+       inkscape:export-xdpi="95.638351"
+       inkscape:export-ydpi="95.638351"
+       transform="scale(-1,1)" />
+  </g>
+</svg>

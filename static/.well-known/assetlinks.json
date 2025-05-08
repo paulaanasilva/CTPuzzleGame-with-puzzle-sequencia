@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.univali.ctpuzzle",
+    "sha256_cert_fingerprints":
+    ["1D:D0:F6:77:25:13:BF:7D:75:43:F3:27:6F:DC:7C:AC:E1:75:4C:03:1E:FF:72:75:5C:C1:8A:2E:9E:4B:25:99"]
+  }
+}]

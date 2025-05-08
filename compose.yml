@@ -1,0 +1,6 @@
+services:
+  tangram:
+    build: .
+    restart: on-failure
+    ports:
+      - "3339:8080"
