@@ -48,7 +48,7 @@ export default class Game extends Scene {
     this.load.image('block', `assets/ct/obstacle_orange_${this.mode}.png`);
     this.load.image('message_box', 'assets/ct/message.png');
     this.load.image('intention_comamnd', 'assets/ct/intention_comamnd.png');
-    this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
+    //this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
     this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-play', 'assets/ct/btn_play.png', { frameWidth: 100, frameHeight: 100 });
@@ -125,10 +125,10 @@ export default class Game extends Scene {
     //Trocou de fase sem nenhuma validação. Depois eu devo colocar uma validação
     this.codeEditor.onClickRun = () => {
       this.positionValidationInstance.logAllShapesPointsPositions();
-      if(this.validateShapes(this.currentPhase)){
+      if (this.validateShapes(this.currentPhase)) {
         this.gameState.registerPlayUse();
         this.showSuccessMessage();
-      }else{
+      } else {
         this.showErrorMessage()
       }
     }
@@ -169,7 +169,7 @@ export default class Game extends Scene {
     messageBox.setText("Parabéns! Você completou a fase!");
     messageBox.onClickOk = async () => {
       messageBox.close();
-      await this.respondAndAdvance();  
+      await this.respondAndAdvance();
     };
   }
 
@@ -182,7 +182,7 @@ export default class Game extends Scene {
         .setFontSize(35)
   }
 
-  validateShapes(phase: MazePhase) : boolean {
+  validateShapes(phase: MazePhase): boolean {
     const pontosDestino = phase.pontosDestino.map(point => ({ x: point.x, y: point.y }));
     return this.positionValidationInstance.isShapeInCorrectPosition(pontosDestino);
   }
@@ -308,7 +308,7 @@ export default class Game extends Scene {
       this.gameState.setReplayingPhase(false);
     }
     const phase = this.phasesLoader.getNextPhase();
-    
+
     this.playPhase(phase, { clearCodeEditor: true, clearResponseState: true });
   }
 
@@ -339,29 +339,37 @@ export default class Game extends Scene {
     }
   }
 
+
+
   async desenhaPoligonoDestino(phase: MazePhase) {
     const graphics = this.add.graphics();
 
     const pontosPoligonoDestinos = phase.poligonoDestino.map(point => ({ x: point.x, y: point.y }));
 
-    graphics.lineStyle(3, 0x640000); // Define a cor e a espessura do contorno
-
-    const dashLength = 5; // Comprimento do traço
-    const gapLength = 2;   // Comprimento do espaço entre os traços
+    // Define o estilo da linha (cor e espessura)
+    graphics.lineStyle(2, 0x000000); // Preto com espessura de 3px
 
     graphics.beginPath();
 
     for (let i = 0; i < pontosPoligonoDestinos.length; i++) {
-      const start = pontosPoligonoDestinos[i];
-      const end = pontosPoligonoDestinos[(i + 1) % pontosPoligonoDestinos.length];
-      this.drawDashedLine(graphics, start.x, start.y, end.x, end.y, dashLength, gapLength);
+      graphics.lineTo(pontosPoligonoDestinos[i].x, pontosPoligonoDestinos[i].y); // Desenha uma linha para o próximo ponto
     }
 
+    graphics.closePath();
     graphics.strokePath();
+
 
     const rect = new Phaser.Geom.Polygon(pontosPoligonoDestinos);
 
     return { graphics, rect };
+  }
+
+  geraCorAleatoriamente(): number {
+    let color;
+    do {
+      color = Math.floor(Math.random() * 0xFFFFFF); // Gera uma cor aleatória
+    } while (color === 0x000000); // Repete se a cor for preta
+    return color;
   }
 
   async desenhaPoligonos(phase: MazePhase) {
@@ -371,17 +379,22 @@ export default class Game extends Scene {
       const InputHandler = new inputHandler(this);
       const FitShape = new fitShape(this);
 
-      polygons.forEach(polygonData => {
-        const points = polygonData.pontos.map(point => ({ x: point.x, y: point.y }));
-        const positions = polygonData.posicao;
-        const color = polygonData.cor || 0xB0E0E6; // Default color if not specified
+      const points = polygons.pontos.map(point => ({ x: point.x, y: point.y }));
+      const positions = polygons.posicao;
+      //const color = polygons.cor || 0xB0E0E6; // Default color if not specified
+      
+      const quantidade = polygons.quantidade || 1;
 
+
+      for (let i = 0; i < quantidade; i++) {
+        const color = this.geraCorAleatoriamente();
         if (points.length > 0) {
           const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
           const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
 
           positions.forEach(position => {
             const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
+            
 
             InputHandler.enableDrag(polygon);
             FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
@@ -390,7 +403,7 @@ export default class Game extends Scene {
               this.poligonoSelecionado = polygon;
               console.log('Polígono selecionado:', this.poligonoSelecionado);
 
-              if(this.poligonoSelecionado){
+              if (this.poligonoSelecionado) {
                 this.gameState.registerClickUse()
               }
             });
@@ -398,7 +411,7 @@ export default class Game extends Scene {
             this.positionValidationInstance.addShape(polygon);
           });
         }
-      });
+      }
     }
   }
 
@@ -441,6 +454,8 @@ export default class Game extends Scene {
 
       //desenha os poligonos
       this.desenhaPoligonos(this.currentPhase);
+
+      //this.desenhaPoligonoEncaixe(this.currentPhase);
     }
   }
 
@@ -469,8 +484,8 @@ export default class Game extends Scene {
     options: {
       setFinished: boolean;
     } = {
-      setFinished: false,
-    }
+        setFinished: false,
+      }
   ): Promise<string> {
     let phase = this.currentPhase;
     if (phase) {
