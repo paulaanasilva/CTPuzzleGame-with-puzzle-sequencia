@@ -339,41 +339,15 @@ export default class Game extends Scene {
     }
   }
 
-  expandPolygon(points: { x: number, y: number }[], offset: number): { x: number, y: number }[] {
-    const expandedPoints: { x: number, y: number }[] = [];
-    const len = points.length;
-  
-    for (let i = 0; i < len; i++) {
-      const current = points[i];
-      const next = points[(i + 1) % len];
-  
-      // Calcula a direção do segmento
-      const dx = next.x - current.x;
-      const dy = next.y - current.y;
-  
-      // Calcula a normal ao segmento
-      const length = Math.sqrt(dx * dx + dy * dy);
-      const nx = -dy / length;
-      const ny = dx / length;
-  
-      // Desloca o ponto atual para fora
-      expandedPoints.push({
-        x: current.x + nx * offset,
-        y: current.y + ny * offset,
-      });
-    }
-  
-    return expandedPoints;
-  }
+
 
   async desenhaPoligonoDestino(phase: MazePhase) {
     const graphics = this.add.graphics();
 
     const pontosPoligonoDestinos = phase.poligonoDestino.map(point => ({ x: point.x, y: point.y }));
 
-
     // Define o estilo da linha (cor e espessura)
-    graphics.lineStyle(5, 0x000000); // Preto com espessura de 3px
+    graphics.lineStyle(2, 0x000000); // Preto com espessura de 3px
 
     graphics.beginPath();
 
@@ -390,50 +364,18 @@ export default class Game extends Scene {
     return { graphics, rect };
   }
 
+  geraCorAleatoriamente(): number {
+    let color;
+    do {
+      color = Math.floor(Math.random() * 0xFFFFFF); // Gera uma cor aleatória
+    } while (color === 0x000000); // Repete se a cor for preta
+    return color;
+  }
+
   async desenhaPoligonos(phase: MazePhase) {
     this.currentPhase = phase;
     if (this.currentPhase) {
       const polygons = this.currentPhase.poligonos;
-      const InputHandler = new inputHandler(this);
-      const FitShape = new fitShape(this);
-
-      polygons.forEach(polygonData => {
-        const points = polygonData.pontos.map(point => ({ x: point.x, y: point.y }));
-        const positions = polygonData.posicao;
-        const color = polygonData.cor || 0xB0E0E6; // Default color if not specified
-        
-
-        if (points.length > 0) {
-          const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
-          const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
-
-          positions.forEach(position => {
-            const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
-
-            InputHandler.enableDrag(polygon);
-            FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
-
-            polygon.on('pointerdown', () => {
-              this.poligonoSelecionado = polygon;
-              console.log('Polígono selecionado:', this.poligonoSelecionado);
-
-              if (this.poligonoSelecionado) {
-                this.gameState.registerClickUse()
-              }
-            });
-
-            this.positionValidationInstance.addShape(polygon);
-          });
-        }
-      });
-    }
-  }
-
-
-  async desenhaPoligonoEncaixe(phase: MazePhase) {
-    this.currentPhase = phase;
-    if (this.currentPhase) {
-      const polygons = this.currentPhase.poligonoEncaixe;
       const InputHandler = new inputHandler(this);
       const FitShape = new fitShape(this);
 
@@ -445,7 +387,7 @@ export default class Game extends Scene {
 
 
       for (let i = 0; i < quantidade; i++) {
-        const color = Math.floor(Math.random() * 0xFFFFFF); 
+        const color = this.geraCorAleatoriamente();
         if (points.length > 0) {
           const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
           const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
@@ -513,7 +455,7 @@ export default class Game extends Scene {
       //desenha os poligonos
       this.desenhaPoligonos(this.currentPhase);
 
-      this.desenhaPoligonoEncaixe(this.currentPhase);
+      //this.desenhaPoligonoEncaixe(this.currentPhase);
     }
   }
 

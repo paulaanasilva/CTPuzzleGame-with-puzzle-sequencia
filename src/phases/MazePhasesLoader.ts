@@ -88,13 +88,6 @@ export default class MazePhasesLoader {
     phase.setupTutorialsAndObjectsPositions = () => {
 
       // Conversão dos polígonos
-      phase.poligonos = Mecanica.poligonos.map(polygon => {
-        return {
-        pontos: polygon.pontos.map(point => ({ x: point.x, y: point.y })),
-        posicao: polygon.posicao.map(position => ({ x: position.x, y: position.y })),
-        cor: polygon.cor
-        };
-      });
 
       phase.poligonoDestino = phase.Mecanica.poligonoDestino.map(p => {
         return { x: p.x, y: p.y }
@@ -103,14 +96,15 @@ export default class MazePhasesLoader {
       phase.pontosDestino = phase.Mecanica.pontosDestino.map(p => {
         return { x: p.x, y: p.y }
       })
-      //aqui termina o poligono
+      
 
-      phase.poligonoEncaixe = {
-        pontos: Mecanica.poligonoEncaixe.pontos.map(point => ({ x: point.x, y: point.y })),
-        posicao: Mecanica.poligonoEncaixe.posicao.map(position => ({ x: position.x, y: position.y })),
-        cor: Mecanica.poligonoEncaixe.cor,
-        quantidade: Mecanica.poligonoEncaixe.quantidade
+      phase.poligonos = {
+        pontos: Mecanica.poligonos.pontos.map(point => ({ x: point.x, y: point.y })),
+        posicao: Mecanica.poligonos.posicao.map(position => ({ x: position.x, y: position.y })),
+        quantidade: Mecanica.poligonos.quantidade
       };
+
+      //aqui termina o poligono
 
       
       phase.skipPhaseMessage =

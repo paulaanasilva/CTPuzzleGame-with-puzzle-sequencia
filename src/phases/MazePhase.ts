@@ -1,7 +1,6 @@
 import { GameObjects, Scene } from "phaser";
 import CodeEditor from "../controls/CodeEditor";
 import AlignGrid from "../geom/AlignGrid";
-import Matrix from "../geom/Matrix";
 import { Mecanica } from "../ct-platform-classes/Mecanica";
 
 export type CommandName = "arrow-up" | "arrow-down" | "arrow-right" | "arrow-left" | "prog_1" | "prog_0" | "prog_2" | "if_coin" | "if_block"
@@ -15,8 +14,7 @@ export const DEFAULT_RESTART_MESSAGE = 'Reiniciar fase?'
 class Poligonos {
   pontos: { x: number, y: number }[] = [];
   posicao: { x: number, y: number }[] = [];
-  cor: string = '';
-  quantidade?: number = 0;
+  quantidade: number = 0;
 }
 
 export default class MazePhase {
@@ -35,8 +33,7 @@ export default class MazePhase {
 
   codeEditor: CodeEditor;
   commands: Array<CommandName[]> = [];
-  poligonoEncaixe: Poligonos;
-  poligonos: Poligonos[] = [];
+  poligonos: Poligonos;
   poligonoDestino: { x: number, y: number }[] = [];
   pontosDestino: { x: number, y: number }[] = [];
 
