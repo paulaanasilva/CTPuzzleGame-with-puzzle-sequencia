@@ -105,7 +105,14 @@ export default class MazePhasesLoader {
       })
       //aqui termina o poligono
 
+      phase.poligonoEncaixe = {
+        pontos: Mecanica.poligonoEncaixe.pontos.map(point => ({ x: point.x, y: point.y })),
+        posicao: Mecanica.poligonoEncaixe.posicao.map(position => ({ x: position.x, y: position.y })),
+        cor: Mecanica.poligonoEncaixe.cor,
+        quantidade: Mecanica.poligonoEncaixe.quantidade
+      };
 
+      
       phase.skipPhaseMessage =
         Mecanica.mensagemAoPularFase || DEFAULT_SKIP_MESSAGE;
       phase.exitPhaseMessage =

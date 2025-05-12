@@ -16,6 +16,7 @@ class Poligonos {
   pontos: { x: number, y: number }[] = [];
   posicao: { x: number, y: number }[] = [];
   cor: string = '';
+  quantidade?: number = 0;
 }
 
 export default class MazePhase {
@@ -34,6 +35,7 @@ export default class MazePhase {
 
   codeEditor: CodeEditor;
   commands: Array<CommandName[]> = [];
+  poligonoEncaixe: Poligonos;
   poligonos: Poligonos[] = [];
   poligonoDestino: { x: number, y: number }[] = [];
   pontosDestino: { x: number, y: number }[] = [];

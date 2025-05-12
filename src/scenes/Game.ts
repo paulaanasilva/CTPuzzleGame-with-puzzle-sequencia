@@ -125,10 +125,10 @@ export default class Game extends Scene {
     //Trocou de fase sem nenhuma validação. Depois eu devo colocar uma validação
     this.codeEditor.onClickRun = () => {
       this.positionValidationInstance.logAllShapesPointsPositions();
-      if(this.validateShapes(this.currentPhase)){
+      if (this.validateShapes(this.currentPhase)) {
         this.gameState.registerPlayUse();
         this.showSuccessMessage();
-      }else{
+      } else {
         this.showErrorMessage()
       }
     }
@@ -169,7 +169,7 @@ export default class Game extends Scene {
     messageBox.setText("Parabéns! Você completou a fase!");
     messageBox.onClickOk = async () => {
       messageBox.close();
-      await this.respondAndAdvance();  
+      await this.respondAndAdvance();
     };
   }
 
@@ -182,7 +182,7 @@ export default class Game extends Scene {
         .setFontSize(35)
   }
 
-  validateShapes(phase: MazePhase) : boolean {
+  validateShapes(phase: MazePhase): boolean {
     const pontosDestino = phase.pontosDestino.map(point => ({ x: point.x, y: point.y }));
     return this.positionValidationInstance.isShapeInCorrectPosition(pontosDestino);
   }
@@ -308,7 +308,7 @@ export default class Game extends Scene {
       this.gameState.setReplayingPhase(false);
     }
     const phase = this.phasesLoader.getNextPhase();
-    
+
     this.playPhase(phase, { clearCodeEditor: true, clearResponseState: true });
   }
 
@@ -339,25 +339,51 @@ export default class Game extends Scene {
     }
   }
 
+  expandPolygon(points: { x: number, y: number }[], offset: number): { x: number, y: number }[] {
+    const expandedPoints: { x: number, y: number }[] = [];
+    const len = points.length;
+  
+    for (let i = 0; i < len; i++) {
+      const current = points[i];
+      const next = points[(i + 1) % len];
+  
+      // Calcula a direção do segmento
+      const dx = next.x - current.x;
+      const dy = next.y - current.y;
+  
+      // Calcula a normal ao segmento
+      const length = Math.sqrt(dx * dx + dy * dy);
+      const nx = -dy / length;
+      const ny = dx / length;
+  
+      // Desloca o ponto atual para fora
+      expandedPoints.push({
+        x: current.x + nx * offset,
+        y: current.y + ny * offset,
+      });
+    }
+  
+    return expandedPoints;
+  }
+
   async desenhaPoligonoDestino(phase: MazePhase) {
     const graphics = this.add.graphics();
 
     const pontosPoligonoDestinos = phase.poligonoDestino.map(point => ({ x: point.x, y: point.y }));
 
-    graphics.lineStyle(3, 0x640000); // Define a cor e a espessura do contorno
 
-    const dashLength = 5; // Comprimento do traço
-    const gapLength = 2;   // Comprimento do espaço entre os traços
+    // Define o estilo da linha (cor e espessura)
+    graphics.lineStyle(5, 0x000000); // Preto com espessura de 3px
 
     graphics.beginPath();
 
     for (let i = 0; i < pontosPoligonoDestinos.length; i++) {
-      const start = pontosPoligonoDestinos[i];
-      const end = pontosPoligonoDestinos[(i + 1) % pontosPoligonoDestinos.length];
-      this.drawDashedLine(graphics, start.x, start.y, end.x, end.y, dashLength, gapLength);
+      graphics.lineTo(pontosPoligonoDestinos[i].x, pontosPoligonoDestinos[i].y); // Desenha uma linha para o próximo ponto
     }
 
+    graphics.closePath();
     graphics.strokePath();
+
 
     const rect = new Phaser.Geom.Polygon(pontosPoligonoDestinos);
 
@@ -375,6 +401,7 @@ export default class Game extends Scene {
         const points = polygonData.pontos.map(point => ({ x: point.x, y: point.y }));
         const positions = polygonData.posicao;
         const color = polygonData.cor || 0xB0E0E6; // Default color if not specified
+        
 
         if (points.length > 0) {
           const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
@@ -390,7 +417,7 @@ export default class Game extends Scene {
               this.poligonoSelecionado = polygon;
               console.log('Polígono selecionado:', this.poligonoSelecionado);
 
-              if(this.poligonoSelecionado){
+              if (this.poligonoSelecionado) {
                 this.gameState.registerClickUse()
               }
             });
@@ -399,6 +426,50 @@ export default class Game extends Scene {
           });
         }
       });
+    }
+  }
+
+
+  async desenhaPoligonoEncaixe(phase: MazePhase) {
+    this.currentPhase = phase;
+    if (this.currentPhase) {
+      const polygons = this.currentPhase.poligonoEncaixe;
+      const InputHandler = new inputHandler(this);
+      const FitShape = new fitShape(this);
+
+      const points = polygons.pontos.map(point => ({ x: point.x, y: point.y }));
+      const positions = polygons.posicao;
+      //const color = polygons.cor || 0xB0E0E6; // Default color if not specified
+      
+      const quantidade = polygons.quantidade || 1;
+
+
+      for (let i = 0; i < quantidade; i++) {
+        const color = Math.floor(Math.random() * 0xFFFFFF); 
+        if (points.length > 0) {
+          const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
+          const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
+
+          positions.forEach(position => {
+            const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
+            
+
+            InputHandler.enableDrag(polygon);
+            FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
+
+            polygon.on('pointerdown', () => {
+              this.poligonoSelecionado = polygon;
+              console.log('Polígono selecionado:', this.poligonoSelecionado);
+
+              if (this.poligonoSelecionado) {
+                this.gameState.registerClickUse()
+              }
+            });
+
+            this.positionValidationInstance.addShape(polygon);
+          });
+        }
+      }
     }
   }
 
@@ -441,6 +512,8 @@ export default class Game extends Scene {
 
       //desenha os poligonos
       this.desenhaPoligonos(this.currentPhase);
+
+      this.desenhaPoligonoEncaixe(this.currentPhase);
     }
   }
 
@@ -469,8 +542,8 @@ export default class Game extends Scene {
     options: {
       setFinished: boolean;
     } = {
-      setFinished: false,
-    }
+        setFinished: false,
+      }
   ): Promise<string> {
     let phase = this.currentPhase;
     if (phase) {
