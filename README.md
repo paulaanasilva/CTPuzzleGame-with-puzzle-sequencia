@@ -1,4 +1,4 @@
-# CTPuzzleGame-with-puzzle-arrastar
+# CTPuzzleGame-with-puzzle-sequencia
 
 Utiliza o framework Phaser3.
 
