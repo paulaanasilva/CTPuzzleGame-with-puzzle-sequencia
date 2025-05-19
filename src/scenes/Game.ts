@@ -47,7 +47,7 @@ export default class Game extends Scene {
 
     this.load.image('quadrado', 'assets/ct/quadrado.svg');
     this.load.image('triangulo', 'assets/ct/triangulo.svg');
-    this.load.image('bola', 'assets/ct/bola.svg');
+    this.load.image('circulo', 'assets/ct/bola.svg');
 
     this.load.image('background', 'assets/ct/radial_gradient.png');
     this.load.image('tile', `assets/ct/tile_${this.mode}.png`);
@@ -354,7 +354,7 @@ export default class Game extends Scene {
 
 
 
-      if (phase.opcoesAlternativas.length > 6) {
+      if (phase.opcoesAlternativas.length > 8) {
         throw new Error("A quantidade de opções não pode exceder 6.");
       }
 
@@ -365,7 +365,7 @@ export default class Game extends Scene {
         const col = i % gridsPerRowOp; // Calcula a coluna atual
 
         const offsetX = 650 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
-        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+        const offsetY = 30 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
 
         const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
 

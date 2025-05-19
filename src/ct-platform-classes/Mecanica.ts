@@ -1,4 +1,4 @@
-type Item = "bola" | "quadrado" | "triangulo" 
+type Item = "circulo" | "quadrado" | "triangulo" 
 
 class Itens {
   nome: Item;
