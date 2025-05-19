@@ -56,8 +56,8 @@ export default class Game extends Scene {
     this.load.image('message_box', 'assets/ct/message.png');
     this.load.image('intention_comamnd', 'assets/ct/intention_comamnd.png');
     //this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
-    this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
-    this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
+    //this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
+    //this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-play', 'assets/ct/btn_play.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-exit', 'assets/ct/btn_exit.png', { frameWidth: 81, frameHeight: 96 });
     this.load.spritesheet('btn-jump', 'assets/ct/btn_jump.png', { frameWidth: 81, frameHeight: 96 });
@@ -150,14 +150,14 @@ export default class Game extends Scene {
   private showErrorMessage() {
     let messageBox = new MessageBox(this, this.grid, { showCancelButton: false });
     this.sounds.error();
-    messageBox.setText("Erro! As formas não estão montadas corretamente.");
+    messageBox.setText("Erro! Alternativa incorreta!");
     messageBox.onClickOk = () => {
       messageBox.close();
     };
   }
 
   private async respondAndAdvance() {
-    debugger
+    //debugger
     const nextItemUrl = await this.sendResponse({ setFinished: true });
     console.log('nextItemUrl:', nextItemUrl);
     setTimeout(() => {
@@ -331,51 +331,7 @@ export default class Game extends Scene {
     }) {
     this.playPhase(this.currentPhase, options)
   }
-
-  drawDashedLine(graphics, x1, y1, x2, y2, dashLength, gapLength) {
-    const totalLength = Phaser.Math.Distance.Between(x1, y1, x2, y2);
-    const dx = (x2 - x1) / totalLength;
-    const dy = (y2 - y1) / totalLength;
-
-    let currentLength = 0;
-    while (currentLength < totalLength) {
-      const nextLength = Math.min(currentLength + dashLength, totalLength);
-      const startX = x1 + dx * currentLength;
-      const startY = y1 + dy * currentLength;
-      const endX = x1 + dx * nextLength;
-      const endY = y1 + dy * nextLength;
-
-      graphics.moveTo(startX, startY);
-      graphics.lineTo(endX, endY);
-      currentLength += dashLength + gapLength;
-    }
-  }
-
-
-
-  async desenhaPoligonoDestino(phase: MazePhase) {
-    const graphics = this.add.graphics();
-
-    const pontosPoligonoDestinos = phase.poligonoDestino.map(point => ({ x: point.x, y: point.y }));
-
-    // Define o estilo da linha (cor e espessura)
-    graphics.lineStyle(2, 0x000000); // Preto com espessura de 3px
-
-    graphics.beginPath();
-
-    for (let i = 0; i < pontosPoligonoDestinos.length; i++) {
-      graphics.lineTo(pontosPoligonoDestinos[i].x, pontosPoligonoDestinos[i].y); // Desenha uma linha para o próximo ponto
-    }
-
-    graphics.closePath();
-    graphics.strokePath();
-
-
-    const rect = new Phaser.Geom.Polygon(pontosPoligonoDestinos);
-
-    return { graphics, rect };
-  }
-
+ 
   geraCorAleatoriamente(): number {
     let color;
     do {
@@ -396,6 +352,11 @@ export default class Game extends Scene {
       const gridSpacing = 20;
       const gridsPerRowOp = 2;
 
+
+
+      if (phase.opcoesAlternativas.length > 6) {
+        throw new Error("A quantidade de opções não pode exceder 6.");
+      }
 
       const gridOpcaoes: { id: number; offsetX: number; offsetY: number; gridSize: number; rows: number; cols: number; cells: Phaser.GameObjects.GameObject[] }[] = []; // Array para armazenar todas as grades
 
@@ -451,6 +412,11 @@ export default class Game extends Scene {
       const gridsPerRowOp = 3;
 
 
+      if (phase.opcoesAlternativas.length > 9) {
+        throw new Error("A quantidade de opções não pode exceder 9.");
+      }
+
+
       const gridOpcaoes = [];
 
       for (let i = 0; i < phase.opcoesQuestao.length; i++) {
@@ -478,56 +444,6 @@ export default class Game extends Scene {
     }
   }
 
-  async desenhaPoligonos(phase: MazePhase) {
-    this.currentPhase = phase;
-    if (this.currentPhase) {
-      const polygons = this.currentPhase.poligonos;
-      const InputHandler = new inputHandler(this);
-      const FitShape = new fitShape(this);
-
-      const points = polygons.pontos.map(point => ({ x: point.x, y: point.y }));
-      const positions = polygons.posicao;
-      //const color = polygons.cor || 0xB0E0E6; // Default color if not specified
-
-      const quantidade = polygons.quantidade || 1;
-
-
-      for (let i = 0; i < quantidade; i++) {
-        const color = this.geraCorAleatoriamente();
-        if (points.length > 0) {
-          const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
-          const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
-
-          positions.forEach(position => {
-            const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
-
-
-            InputHandler.enableDrag(polygon);
-            FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
-
-            polygon.on('pointerdown', () => {
-              this.poligonoSelecionado = polygon;
-              console.log('Polígono selecionado:', this.poligonoSelecionado);
-
-              if (this.poligonoSelecionado) {
-                this.gameState.registerClickUse()
-              }
-            });
-
-            this.positionValidationInstance.addShape(polygon);
-          });
-        }
-      }
-    }
-  }
-
-  private removePoligonos() {
-    const polygons = this.children.list.filter(child =>
-      child instanceof Phaser.GameObjects.Polygon || child instanceof Phaser.GameObjects.Graphics
-    );
-    polygons.forEach(polygon => polygon.destroy());
-  }
-
   async playPhase(phase: MazePhase, playPhaseOptions: PlayPhaseOptions) {
 
     this.playBackgroundMusic();
@@ -553,13 +469,7 @@ export default class Game extends Scene {
       this.currentPhase.setupMatrixAndTutorials()
 
       //remove os poligonos
-      this.removePoligonos();
-
-      //desenha o novo poligono
-      this.desenhaPoligonoDestino(this.currentPhase);
-
-      //desenha os poligonos
-      this.desenhaPoligonos(this.currentPhase);
+      //this.removePoligonos();
 
       this.desenhaGridQuestao(this.currentPhase);
 

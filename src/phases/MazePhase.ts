@@ -12,12 +12,6 @@ export const DEFAULT_SKIP_MESSAGE = 'Você vai pular essa fase?'
 export const DEFAULT_EXIT_MESSAGE = 'Vai sair dessa fase?'
 export const DEFAULT_RESTART_MESSAGE = 'Reiniciar fase?'
 
-class Poligonos {
-  pontos: { x: number, y: number }[] = [];
-  posicao: { x: number, y: number }[] = [];
-  quantidade: number = 0;
-}
-
 class Itens {
   nome: Item;
   posicao: { x: number, y: number };
@@ -47,9 +41,6 @@ export default class MazePhase {
   opcoesQuestao: Opcoes[] = [];
   opcoesAlternativas: Opcoes[] = [];
   respostaQuestao: number = 0;
-  poligonos: Poligonos;
-  poligonoDestino: { x: number, y: number }[] = [];
-  pontosDestino: { x: number, y: number }[] = [];
 
   constructor(scene: Scene, codeEditor: CodeEditor) {
     this.scene = scene;
