@@ -87,8 +87,18 @@ export default class MazePhasesLoader {
 
     phase.setupTutorialsAndObjectsPositions = () => {
 
-      // Conversão dos polígonos
+      phase.opcoesQuestao = Mecanica.opcoesQuestao.map(opcao => {
+        return {
+          itens: opcao.itens.map(item => {
+            return {
+              nome: item.nome,
+              posicao: { x: item.posicao.x, y: item.posicao.y }
+            }
+          })
+        }
+      });   
 
+      // Conversão dos polígonos
       phase.poligonoDestino = phase.Mecanica.poligonoDestino.map(p => {
         return { x: p.x, y: p.y }
       })

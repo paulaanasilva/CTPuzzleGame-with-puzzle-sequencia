@@ -1,5 +1,6 @@
 import { inputHandler } from './class/InputHandler'
 import { fitShape } from './class/fitShape'
+import { gridElements } from './class/gridElements'
 import { positionValidation } from './class/positionValidation'
 import { GameObjects, Types, Scene } from 'phaser'
 import { MatrixMode } from '../geom/Matrix'
@@ -42,6 +43,11 @@ export default class Game extends Scene {
   }
 
   preload() {
+
+    this.load.image('quadrado', 'assets/ct/quadrado.svg');
+    this.load.image('triangulo', 'assets/ct/triangulo.svg');
+    this.load.image('bola', 'assets/ct/bola.svg');
+
     this.load.image('background', 'assets/ct/radial_gradient.png');
     this.load.image('tile', `assets/ct/tile_${this.mode}.png`);
     this.load.image('x', 'assets/ct/x.png');
@@ -372,6 +378,55 @@ export default class Game extends Scene {
     return color;
   }
 
+  async desenhaGridOpcoes(phase: MazePhase) {
+    this.currentPhase = phase;
+    if (this.currentPhase) {
+
+      const GridElements = new gridElements(this);
+
+      const gridSize = 30;
+      const rows = 5;
+      const cols = 5;
+      const gridSpacing = 20;
+      const gridsPerRowOp = 3;
+
+
+      const gridOpcaoes: Opcoes = { itens: [] }; 
+
+      for (let i = 0; i < phase.opcoesQuestao.length; i++) {
+        const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
+        const col = i % gridsPerRowOp; // Calcula a coluna atual
+
+        const offsetX = 80 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+
+        const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
+
+        gridOpcaoes.itens.push(grid);
+
+        //this.createGrid.addImageToGrid(2, 3, 'quadrado', grids[0], gridSize);
+
+        for (let j = 0; j < phase.opcoesQuestao[i].itens.length; j++) {
+          console.log('OBJETO');
+          console.log('nome:', phase.opcoesQuestao[i].itens[j].nome);
+          console.log('posicaox:', phase.opcoesQuestao[i].itens[j].posicao.x);
+          console.log('posicaoy:', phase.opcoesQuestao[i].itens[j].posicao.y);
+
+          GridElements.addImageToGrid(
+            phase.opcoesQuestao[i].itens[j].posicao.x,
+            phase.opcoesQuestao[i].itens[j].posicao.y,
+            phase.opcoesQuestao[i].itens[j].nome,
+            grid,
+            gridSize
+          );
+
+        }
+
+      }
+    
+    }
+  }
+
   async desenhaPoligonos(phase: MazePhase) {
     this.currentPhase = phase;
     if (this.currentPhase) {
@@ -382,7 +437,7 @@ export default class Game extends Scene {
       const points = polygons.pontos.map(point => ({ x: point.x, y: point.y }));
       const positions = polygons.posicao;
       //const color = polygons.cor || 0xB0E0E6; // Default color if not specified
-      
+
       const quantidade = polygons.quantidade || 1;
 
 
@@ -394,7 +449,7 @@ export default class Game extends Scene {
 
           positions.forEach(position => {
             const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
-            
+
 
             InputHandler.enableDrag(polygon);
             FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
@@ -455,7 +510,7 @@ export default class Game extends Scene {
       //desenha os poligonos
       this.desenhaPoligonos(this.currentPhase);
 
-      //this.desenhaPoligonoEncaixe(this.currentPhase);
+      this.desenhaGridOpcoes(this.currentPhase);
     }
   }
 
