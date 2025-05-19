@@ -23,7 +23,7 @@ export class gridElements {
         if (selectedGrid) {
             // Adiciona uma borda ao redor da grade selecionada
             const border = this.scene.add.graphics(); // Corrigido: Usar this.scene.add.graphics()
-            border.lineStyle(6, 0xff0000); // Define a borda vermelha
+            border.lineStyle(6, 0x640000); // Define a borda vermelha
             border.strokeRect(
                 selectedGrid.offsetX,
                 selectedGrid.offsetY,

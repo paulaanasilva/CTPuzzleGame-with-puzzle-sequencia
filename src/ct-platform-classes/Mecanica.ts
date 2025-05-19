@@ -28,8 +28,11 @@ export class Mecanica {
   contadorGiros: number = 0;
 
   opcoesQuestao: Opcoes[] = [];
+  opcoesAlternativas: Opcoes[] = [];
+  respostaQuestao: number = 0;
   poligonos: Poligonos;
   poligonoDestino: { x: number, y: number }[] = [];
   pontosDestino: { x: number, y: number }[] = [];
+  
 }
 

@@ -35,6 +35,7 @@ export default class Game extends Scene {
   messageBox: MessageBox
   textCurrentPhase: GameObjects.Text
   shapes: Phaser.GameObjects.Polygon[] = [];
+  gridClicadaResposta: number
   private positionValidationInstance: positionValidation;
 
   constructor() {
@@ -130,8 +131,7 @@ export default class Game extends Scene {
     //Aqui está a lógica de quando o botão de play é clicado
     //Trocou de fase sem nenhuma validação. Depois eu devo colocar uma validação
     this.codeEditor.onClickRun = () => {
-      this.positionValidationInstance.logAllShapesPointsPositions();
-      if (this.validateShapes(this.currentPhase)) {
+      if (this.validaResposta(this.currentPhase)) {
         this.gameState.registerPlayUse();
         this.showSuccessMessage();
       } else {
@@ -188,9 +188,15 @@ export default class Game extends Scene {
         .setFontSize(35)
   }
 
-  validateShapes(phase: MazePhase): boolean {
-    const pontosDestino = phase.pontosDestino.map(point => ({ x: point.x, y: point.y }));
-    return this.positionValidationInstance.isShapeInCorrectPosition(pontosDestino);
+  validaResposta(phase: MazePhase): boolean {
+    if (this.currentPhase && this.currentPhase.respostaQuestao !== undefined) {
+      const respostaQuestao = this.currentPhase.respostaQuestao;
+      const respostaAlternativa = this.gridClicadaResposta;
+      if (respostaQuestao === respostaAlternativa) {
+        return true;
+      }
+    }
+    return false;
   }
 
   private createBtnExit() {
@@ -378,7 +384,61 @@ export default class Game extends Scene {
     return color;
   }
 
-  async desenhaGridOpcoes(phase: MazePhase) {
+  async desenhaGridAlternativas(phase: MazePhase) {
+    this.currentPhase = phase;
+    if (this.currentPhase) {
+
+      const GridElements = new gridElements(this);
+
+      const gridSize = 30;
+      const rows = 5;
+      const cols = 5;
+      const gridSpacing = 20;
+      const gridsPerRowOp = 2;
+
+
+      const gridOpcaoes: { id: number; offsetX: number; offsetY: number; gridSize: number; rows: number; cols: number; cells: Phaser.GameObjects.GameObject[] }[] = []; // Array para armazenar todas as grades
+
+      for (let i = 0; i < phase.opcoesAlternativas.length; i++) {
+        const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
+        const col = i % gridsPerRowOp; // Calcula a coluna atual
+
+        const offsetX = 650 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+
+        const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
+
+        GridElements.addClickEvent(grid, gridSize, i, (clickedId) => {
+          GridElements.highlightSelectedGrid(clickedId, gridOpcaoes); // Destaca a grade clicada
+          this.gridClicadaResposta = clickedId;
+        });
+
+        gridOpcaoes.push({
+          id: i,
+          offsetX,
+          offsetY,
+          gridSize,
+          rows,
+          cols,
+          cells: grid,
+        });
+
+
+        for (let j = 0; j < phase.opcoesAlternativas[i].itens.length; j++) {
+          GridElements.addImageToGrid(
+            phase.opcoesAlternativas[i].itens[j].posicao.x,
+            phase.opcoesAlternativas[i].itens[j].posicao.y,
+            phase.opcoesAlternativas[i].itens[j].nome,
+            grid,
+            gridSize
+          );
+        }
+      }
+
+    }
+  }
+
+  async desenhaGridQuestao(phase: MazePhase) {
     this.currentPhase = phase;
     if (this.currentPhase) {
 
@@ -391,7 +451,7 @@ export default class Game extends Scene {
       const gridsPerRowOp = 3;
 
 
-      const gridOpcaoes: Opcoes = { itens: [] }; 
+      const gridOpcaoes = [];
 
       for (let i = 0; i < phase.opcoesQuestao.length; i++) {
         const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
@@ -402,16 +462,9 @@ export default class Game extends Scene {
 
         const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
 
-        gridOpcaoes.itens.push(grid);
-
-        //this.createGrid.addImageToGrid(2, 3, 'quadrado', grids[0], gridSize);
+        gridOpcaoes.push(grid);
 
         for (let j = 0; j < phase.opcoesQuestao[i].itens.length; j++) {
-          console.log('OBJETO');
-          console.log('nome:', phase.opcoesQuestao[i].itens[j].nome);
-          console.log('posicaox:', phase.opcoesQuestao[i].itens[j].posicao.x);
-          console.log('posicaoy:', phase.opcoesQuestao[i].itens[j].posicao.y);
-
           GridElements.addImageToGrid(
             phase.opcoesQuestao[i].itens[j].posicao.x,
             phase.opcoesQuestao[i].itens[j].posicao.y,
@@ -419,11 +472,9 @@ export default class Game extends Scene {
             grid,
             gridSize
           );
-
         }
-
       }
-    
+
     }
   }
 
@@ -510,7 +561,9 @@ export default class Game extends Scene {
       //desenha os poligonos
       this.desenhaPoligonos(this.currentPhase);
 
-      this.desenhaGridOpcoes(this.currentPhase);
+      this.desenhaGridQuestao(this.currentPhase);
+
+      this.desenhaGridAlternativas(this.currentPhase);
     }
   }
 

@@ -96,7 +96,20 @@ export default class MazePhasesLoader {
             }
           })
         }
-      });   
+      });
+
+      phase.opcoesAlternativas = Mecanica.opcoesAlternativas.map(opcao => {
+        return {
+          itens: opcao.itens.map(item => {
+            return {
+              nome: item.nome,
+              posicao: { x: item.posicao.x, y: item.posicao.y }
+            }
+          })
+        }
+      });
+
+      phase.respostaQuestao = Mecanica.respostaQuestao;
 
       // Conversão dos polígonos
       phase.poligonoDestino = phase.Mecanica.poligonoDestino.map(p => {
@@ -106,7 +119,7 @@ export default class MazePhasesLoader {
       phase.pontosDestino = phase.Mecanica.pontosDestino.map(p => {
         return { x: p.x, y: p.y }
       })
-      
+
 
       phase.poligonos = {
         pontos: Mecanica.poligonos.pontos.map(point => ({ x: point.x, y: point.y })),
@@ -116,7 +129,7 @@ export default class MazePhasesLoader {
 
       //aqui termina o poligono
 
-      
+
       phase.skipPhaseMessage =
         Mecanica.mensagemAoPularFase || DEFAULT_SKIP_MESSAGE;
       phase.exitPhaseMessage =
