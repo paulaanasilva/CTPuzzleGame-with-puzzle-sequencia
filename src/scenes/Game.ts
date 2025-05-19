@@ -1,5 +1,6 @@
 import { inputHandler } from './class/InputHandler'
 import { fitShape } from './class/fitShape'
+import { gridElements } from './class/gridElements'
 import { positionValidation } from './class/positionValidation'
 import { GameObjects, Types, Scene } from 'phaser'
 import { MatrixMode } from '../geom/Matrix'
@@ -34,6 +35,7 @@ export default class Game extends Scene {
   messageBox: MessageBox
   textCurrentPhase: GameObjects.Text
   shapes: Phaser.GameObjects.Polygon[] = [];
+  gridClicadaResposta: number
   private positionValidationInstance: positionValidation;
 
   constructor() {
@@ -42,6 +44,11 @@ export default class Game extends Scene {
   }
 
   preload() {
+
+    this.load.image('quadrado', 'assets/ct/quadrado.svg');
+    this.load.image('triangulo', 'assets/ct/triangulo.svg');
+    this.load.image('bola', 'assets/ct/bola.svg');
+
     this.load.image('background', 'assets/ct/radial_gradient.png');
     this.load.image('tile', `assets/ct/tile_${this.mode}.png`);
     this.load.image('x', 'assets/ct/x.png');
@@ -49,8 +56,8 @@ export default class Game extends Scene {
     this.load.image('message_box', 'assets/ct/message.png');
     this.load.image('intention_comamnd', 'assets/ct/intention_comamnd.png');
     //this.load.image('tutorial-block-click-background', 'assets/ct/tutorial-block-click-background.png');
-    this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
-    this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
+    //this.load.spritesheet('giroleft', 'assets/ct/giro_left.png', { frameWidth: 100, frameHeight: 100 });
+    //this.load.spritesheet('giroright', 'assets/ct/giro_right.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-play', 'assets/ct/btn_play.png', { frameWidth: 100, frameHeight: 100 });
     this.load.spritesheet('btn-exit', 'assets/ct/btn_exit.png', { frameWidth: 81, frameHeight: 96 });
     this.load.spritesheet('btn-jump', 'assets/ct/btn_jump.png', { frameWidth: 81, frameHeight: 96 });
@@ -124,8 +131,7 @@ export default class Game extends Scene {
     //Aqui está a lógica de quando o botão de play é clicado
     //Trocou de fase sem nenhuma validação. Depois eu devo colocar uma validação
     this.codeEditor.onClickRun = () => {
-      this.positionValidationInstance.logAllShapesPointsPositions();
-      if (this.validateShapes(this.currentPhase)) {
+      if (this.validaResposta(this.currentPhase)) {
         this.gameState.registerPlayUse();
         this.showSuccessMessage();
       } else {
@@ -144,14 +150,14 @@ export default class Game extends Scene {
   private showErrorMessage() {
     let messageBox = new MessageBox(this, this.grid, { showCancelButton: false });
     this.sounds.error();
-    messageBox.setText("Erro! As formas não estão montadas corretamente.");
+    messageBox.setText("Erro! Alternativa incorreta!");
     messageBox.onClickOk = () => {
       messageBox.close();
     };
   }
 
   private async respondAndAdvance() {
-    debugger
+    //debugger
     const nextItemUrl = await this.sendResponse({ setFinished: true });
     console.log('nextItemUrl:', nextItemUrl);
     setTimeout(() => {
@@ -182,9 +188,15 @@ export default class Game extends Scene {
         .setFontSize(35)
   }
 
-  validateShapes(phase: MazePhase): boolean {
-    const pontosDestino = phase.pontosDestino.map(point => ({ x: point.x, y: point.y }));
-    return this.positionValidationInstance.isShapeInCorrectPosition(pontosDestino);
+  validaResposta(phase: MazePhase): boolean {
+    if (this.currentPhase && this.currentPhase.respostaQuestao !== undefined) {
+      const respostaQuestao = this.currentPhase.respostaQuestao;
+      const respostaAlternativa = this.gridClicadaResposta;
+      if (respostaQuestao === respostaAlternativa) {
+        return true;
+      }
+    }
+    return false;
   }
 
   private createBtnExit() {
@@ -319,51 +331,7 @@ export default class Game extends Scene {
     }) {
     this.playPhase(this.currentPhase, options)
   }
-
-  drawDashedLine(graphics, x1, y1, x2, y2, dashLength, gapLength) {
-    const totalLength = Phaser.Math.Distance.Between(x1, y1, x2, y2);
-    const dx = (x2 - x1) / totalLength;
-    const dy = (y2 - y1) / totalLength;
-
-    let currentLength = 0;
-    while (currentLength < totalLength) {
-      const nextLength = Math.min(currentLength + dashLength, totalLength);
-      const startX = x1 + dx * currentLength;
-      const startY = y1 + dy * currentLength;
-      const endX = x1 + dx * nextLength;
-      const endY = y1 + dy * nextLength;
-
-      graphics.moveTo(startX, startY);
-      graphics.lineTo(endX, endY);
-      currentLength += dashLength + gapLength;
-    }
-  }
-
-
-
-  async desenhaPoligonoDestino(phase: MazePhase) {
-    const graphics = this.add.graphics();
-
-    const pontosPoligonoDestinos = phase.poligonoDestino.map(point => ({ x: point.x, y: point.y }));
-
-    // Define o estilo da linha (cor e espessura)
-    graphics.lineStyle(2, 0x000000); // Preto com espessura de 3px
-
-    graphics.beginPath();
-
-    for (let i = 0; i < pontosPoligonoDestinos.length; i++) {
-      graphics.lineTo(pontosPoligonoDestinos[i].x, pontosPoligonoDestinos[i].y); // Desenha uma linha para o próximo ponto
-    }
-
-    graphics.closePath();
-    graphics.strokePath();
-
-
-    const rect = new Phaser.Geom.Polygon(pontosPoligonoDestinos);
-
-    return { graphics, rect };
-  }
-
+ 
   geraCorAleatoriamente(): number {
     let color;
     do {
@@ -372,54 +340,108 @@ export default class Game extends Scene {
     return color;
   }
 
-  async desenhaPoligonos(phase: MazePhase) {
+  async desenhaGridAlternativas(phase: MazePhase) {
     this.currentPhase = phase;
     if (this.currentPhase) {
-      const polygons = this.currentPhase.poligonos;
-      const InputHandler = new inputHandler(this);
-      const FitShape = new fitShape(this);
 
-      const points = polygons.pontos.map(point => ({ x: point.x, y: point.y }));
-      const positions = polygons.posicao;
-      //const color = polygons.cor || 0xB0E0E6; // Default color if not specified
-      
-      const quantidade = polygons.quantidade || 1;
+      const GridElements = new gridElements(this);
+
+      const gridSize = 30;
+      const rows = 5;
+      const cols = 5;
+      const gridSpacing = 20;
+      const gridsPerRowOp = 2;
 
 
-      for (let i = 0; i < quantidade; i++) {
-        const color = this.geraCorAleatoriamente();
-        if (points.length > 0) {
-          const centerX = points.reduce((sum, point) => sum + point.x, 0) / points.length;
-          const centerY = points.reduce((sum, point) => sum + point.y, 0) / points.length;
 
-          positions.forEach(position => {
-            const polygon = this.add.polygon(position.x + centerX, position.y + centerY, points, color).setOrigin(0.5, 0.5);
-            
+      if (phase.opcoesAlternativas.length > 6) {
+        throw new Error("A quantidade de opções não pode exceder 6.");
+      }
 
-            InputHandler.enableDrag(polygon);
-            FitShape.enablePartialFit(polygon, this.currentPhase.poligonoDestino);
+      const gridOpcaoes: { id: number; offsetX: number; offsetY: number; gridSize: number; rows: number; cols: number; cells: Phaser.GameObjects.GameObject[] }[] = []; // Array para armazenar todas as grades
 
-            polygon.on('pointerdown', () => {
-              this.poligonoSelecionado = polygon;
-              console.log('Polígono selecionado:', this.poligonoSelecionado);
+      for (let i = 0; i < phase.opcoesAlternativas.length; i++) {
+        const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
+        const col = i % gridsPerRowOp; // Calcula a coluna atual
 
-              if (this.poligonoSelecionado) {
-                this.gameState.registerClickUse()
-              }
-            });
+        const offsetX = 650 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
 
-            this.positionValidationInstance.addShape(polygon);
-          });
+        const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
+
+        GridElements.addClickEvent(grid, gridSize, i, (clickedId) => {
+          GridElements.highlightSelectedGrid(clickedId, gridOpcaoes); // Destaca a grade clicada
+          this.gridClicadaResposta = clickedId;
+        });
+
+        gridOpcaoes.push({
+          id: i,
+          offsetX,
+          offsetY,
+          gridSize,
+          rows,
+          cols,
+          cells: grid,
+        });
+
+
+        for (let j = 0; j < phase.opcoesAlternativas[i].itens.length; j++) {
+          GridElements.addImageToGrid(
+            phase.opcoesAlternativas[i].itens[j].posicao.x,
+            phase.opcoesAlternativas[i].itens[j].posicao.y,
+            phase.opcoesAlternativas[i].itens[j].nome,
+            grid,
+            gridSize
+          );
         }
       }
+
     }
   }
 
-  private removePoligonos() {
-    const polygons = this.children.list.filter(child =>
-      child instanceof Phaser.GameObjects.Polygon || child instanceof Phaser.GameObjects.Graphics
-    );
-    polygons.forEach(polygon => polygon.destroy());
+  async desenhaGridQuestao(phase: MazePhase) {
+    this.currentPhase = phase;
+    if (this.currentPhase) {
+
+      const GridElements = new gridElements(this);
+
+      const gridSize = 30;
+      const rows = 5;
+      const cols = 5;
+      const gridSpacing = 20;
+      const gridsPerRowOp = 3;
+
+
+      if (phase.opcoesAlternativas.length > 9) {
+        throw new Error("A quantidade de opções não pode exceder 9.");
+      }
+
+
+      const gridOpcaoes = [];
+
+      for (let i = 0; i < phase.opcoesQuestao.length; i++) {
+        const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
+        const col = i % gridsPerRowOp; // Calcula a coluna atual
+
+        const offsetX = 80 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+
+        const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
+
+        gridOpcaoes.push(grid);
+
+        for (let j = 0; j < phase.opcoesQuestao[i].itens.length; j++) {
+          GridElements.addImageToGrid(
+            phase.opcoesQuestao[i].itens[j].posicao.x,
+            phase.opcoesQuestao[i].itens[j].posicao.y,
+            phase.opcoesQuestao[i].itens[j].nome,
+            grid,
+            gridSize
+          );
+        }
+      }
+
+    }
   }
 
   async playPhase(phase: MazePhase, playPhaseOptions: PlayPhaseOptions) {
@@ -447,15 +469,11 @@ export default class Game extends Scene {
       this.currentPhase.setupMatrixAndTutorials()
 
       //remove os poligonos
-      this.removePoligonos();
+      //this.removePoligonos();
 
-      //desenha o novo poligono
-      this.desenhaPoligonoDestino(this.currentPhase);
+      this.desenhaGridQuestao(this.currentPhase);
 
-      //desenha os poligonos
-      this.desenhaPoligonos(this.currentPhase);
-
-      //this.desenhaPoligonoEncaixe(this.currentPhase);
+      this.desenhaGridAlternativas(this.currentPhase);
     }
   }
 

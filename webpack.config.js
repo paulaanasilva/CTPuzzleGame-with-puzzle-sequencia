@@ -10,7 +10,7 @@ module.exports = {
   devtool: 'source-map',
   devServer: {
     contentBase: path.join(__dirname, 'dist'),
-    port: 9011,
+    port: 9012,
   },
   module: {
     rules: [

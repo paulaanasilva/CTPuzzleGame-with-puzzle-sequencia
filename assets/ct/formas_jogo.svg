@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="107.00747mm"
+   height="24.594801mm"
+   viewBox="0 0 107.00747 24.594801"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.0489613,-124.46634)">
+    <ellipse
+       style="fill:#ff6600;stroke:none;stroke-width:2.22907;stroke-dashoffset:10.4428"
+       id="path1"
+       cx="19.304848"
+       cy="136.76373"
+       rx="13.255886"
+       ry="12.297397"
+       inkscape:export-filename="bola.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <rect
+       style="fill:#0000ff;stroke:none;stroke-width:1.94756;stroke-dashoffset:10.4428"
+       id="rect1"
+       width="27.530987"
+       height="23.196737"
+       x="45.730785"
+       y="125.16537"
+       inkscape:export-filename="quadrado.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0000;stroke:none;stroke-width:1.842;stroke-dashoffset:10.4428"
+       id="path2"
+       inkscape:flatsided="false"
+       sodipodi:sides="3"
+       sodipodi:cx="41.894032"
+       sodipodi:cy="67.841293"
+       sodipodi:r1="21.082157"
+       sodipodi:r2="10.54108"
+       sodipodi:arg1="1.5707963"
+       sodipodi:arg2="2.6179939"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 41.894032,88.92345 -9.128844,-15.811617 -9.12884,-15.811618 18.257684,-2e-6 18.257683,10e-7 -9.12884,15.81162 z"
+       inkscape:transform-center-y="3.9529033"
+       transform="matrix(0.74999997,0,0,0.75000004,67.942654,82.368538)"
+       inkscape:export-filename="triangulo.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
