@@ -118,6 +118,12 @@ export default class GameState {
     this.setResponse(response)
   }
 
+  registerErrorUse() {
+    let response = this.getResponse();
+    response.countErrorUse();
+    this.setResponse(response);
+  }
+
   registerStopUse() {
     let response = this.getResponse();
     response.countStop();

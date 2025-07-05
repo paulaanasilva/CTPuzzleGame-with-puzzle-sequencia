@@ -20,6 +20,9 @@ export class RespostaItemProgramacao {
   finalizou = false
 
 
+  countErrorUse() {
+    this.contadorTentativas++
+  }
 
   countTrashUse() {
     this.contadorUsoLixeira++
