@@ -135,6 +135,7 @@ export default class Game extends Scene {
         this.gameState.registerPlayUse();
         this.showSuccessMessage();
       } else {
+        this.gameState.registerErrorUse();
         this.showErrorMessage()
       }
     }
