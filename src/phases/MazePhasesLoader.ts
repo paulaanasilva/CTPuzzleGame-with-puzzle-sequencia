@@ -118,6 +118,8 @@ export default class MazePhasesLoader {
       phase.restartPhaseMessage =
         Mecanica.mensagemAoReiniciarFase || DEFAULT_RESTART_MESSAGE;
 
+      phase.enunciadoJogo = Mecanica.enunciadoJogo || '';
+
     };
     return phase;
   }

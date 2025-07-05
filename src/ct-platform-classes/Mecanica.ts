@@ -17,6 +17,7 @@ export class Mecanica {
   mensagemAoPularFase: string;
   mensagemAoSairDoJogo: string;
   mensagemAoReiniciarFase: string;
+  enunciadoJogo: string;
 
   contadorCliques: number = 0;
   contadorGiros: number = 0;
