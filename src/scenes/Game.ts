@@ -332,7 +332,19 @@ export default class Game extends Scene {
     }) {
     this.playPhase(this.currentPhase, options)
   }
- 
+
+  escreveEnunciadoJogo() {
+    if (this.currentPhase && this.currentPhase.enunciadoJogo) {
+      const text = this.add.text(95, 30, this.currentPhase.enunciadoJogo, {
+        fontFamily: 'Dyuthi, sans-serif',
+        fontSize: '20px',
+        color: '#000000',
+        align: 'center',
+        wordWrap: { width: this.grid.width * 0.9 }
+      });
+    }
+  }
+
   geraCorAleatoriamente(): number {
     let color;
     do {
@@ -471,6 +483,8 @@ export default class Game extends Scene {
 
       //remove os poligonos
       //this.removePoligonos();
+
+      this.escreveEnunciadoJogo();
 
       this.desenhaGridQuestao(this.currentPhase);
 

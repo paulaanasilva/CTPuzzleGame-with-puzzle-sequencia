@@ -49,7 +49,7 @@ export default class CodeEditor {
   }
   
   resetPositionsStartStopStepButton() {
-    this.grid.placeAt(6, 19, this.btnPlay.sprite, 2)
+    this.grid.placeAt(2.5, 20, this.btnPlay.sprite, 1.5)
   }
 
   setPlayBtnModeStoppeds() {

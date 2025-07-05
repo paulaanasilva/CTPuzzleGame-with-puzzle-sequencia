@@ -26,6 +26,7 @@ export default class MazePhase {
   skipPhaseMessage:string = DEFAULT_SKIP_MESSAGE
   exitPhaseMessage:string = DEFAULT_EXIT_MESSAGE
   restartPhaseMessage:string = DEFAULT_RESTART_MESSAGE
+  enunciadoJogo:string = ''
   setupTutorialsAndObjectsPositions: () => void;
   messagesBeforeStartPlay:string[] = []
   scene: Scene;
