@@ -363,11 +363,13 @@ export default class Game extends Scene {
       const rows = 5;
       const cols = 5;
       const gridSpacing = 20;
-      const gridsPerRowOp = 2;
+      const gridsPerRowOp = 5;
 
 
+      const posXGrid = 115;
+      const posYGrid = 350;
 
-      if (phase.opcoesAlternativas.length > 8) {
+      if (phase.opcoesAlternativas.length > 10) {
         throw new Error("A quantidade de opções não pode exceder 6.");
       }
 
@@ -377,8 +379,8 @@ export default class Game extends Scene {
         const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
         const col = i % gridsPerRowOp; // Calcula a coluna atual
 
-        const offsetX = 650 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
-        const offsetY = 30 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+        const offsetX = posXGrid + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = posYGrid + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
 
         const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
 
@@ -422,10 +424,13 @@ export default class Game extends Scene {
       const rows = 5;
       const cols = 5;
       const gridSpacing = 20;
-      const gridsPerRowOp = 3;
+      const gridsPerRowOp = 6;
+
+      const posXGrid = 125;
+      const posYGrid = 115;
 
 
-      if (phase.opcoesAlternativas.length > 9) {
+      if (phase.opcoesQuestao.length > 6) {
         throw new Error("A quantidade de opções não pode exceder 9.");
       }
 
@@ -436,8 +441,8 @@ export default class Game extends Scene {
         const row = Math.floor(i / gridsPerRowOp); // Calcula a linha atual
         const col = i % gridsPerRowOp; // Calcula a coluna atual
 
-        const offsetX = 80 + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
-        const offsetY = 50 + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
+        const offsetX = posXGrid + col * (cols * gridSize + gridSpacing); // Ajustar posição X com base na coluna
+        const offsetY = posYGrid + row * (rows * gridSize + gridSpacing); // Ajustar posição Y com base na linha
 
         const grid = GridElements.createGrid(gridSize, rows, cols, offsetX, offsetY);
 
@@ -453,6 +458,25 @@ export default class Game extends Scene {
           );
         }
       }
+
+        // Criar uma única borda ao redor de todas as grades
+        const totalRows = Math.ceil(phase.opcoesQuestao.length / gridsPerRowOp); // Número total de linhas de grades
+        const totalCols = Math.min(phase.opcoesQuestao.length, gridsPerRowOp); // Número de colunas (máximo é gridsPerRowOp)
+        
+        const totalBorderWidth = totalCols * (cols * gridSize) + (totalCols - 1) * gridSpacing;
+        const totalBorderHeight = totalRows * (rows * gridSize) + (totalRows - 1) * gridSpacing;
+        
+        const borderX = posXGrid + totalBorderWidth / 2;
+        const borderY = posYGrid + totalBorderHeight / 2;
+        
+        const overallBorder = this.add.rectangle(
+            borderX,
+            borderY,
+            totalBorderWidth + 30, // Adiciona um pouco de espaço extra para a borda
+            totalBorderHeight + 30
+        );
+        overallBorder.setStrokeStyle(1, 0x22456f); // Borda preta com espessura 2
+        overallBorder.setFillStyle(); // Remove o preenchimento
 
     }
   }
