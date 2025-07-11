@@ -217,6 +217,7 @@ export default class Game extends Scene {
       let messageBox = new MessageBox(this, this.grid, { showCancelButton: true })
       messageBox.setText(this.currentPhase.skipPhaseMessage)
       messageBox.onClickOk = () => {
+        this.gameState.registerGiveUp()
         messageBox.close()
         this.giveUp()
       }
