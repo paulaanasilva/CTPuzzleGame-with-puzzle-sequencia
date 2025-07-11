@@ -43,7 +43,7 @@ export class gridElements {
         // Desenhar a borda ao redor do quadrado
         const totalWidth = cols * size;
         const totalHeight = rows * size;
-        graphics.lineStyle(3, 0x22456f); // Define a espessura e cor da borda
+        graphics.lineStyle(2, 0x22456f); // Define a espessura e cor da borda
         graphics.strokeRect(offsetX, offsetY, totalWidth, totalHeight);
 
         // Imprimir a posição total em pixels da grid
@@ -54,6 +54,11 @@ export class gridElements {
             for (let col = 0; col < cols; col++) {
                 const x = offsetX + col * size;
                 const y = offsetY + row * size;
+
+                // Desenhar a borda da célula
+                graphics.lineStyle(1, 0x22456f); // Cor e espessura da borda da célula
+                graphics.strokeRect(x, y, size, size);
+                //
 
                 // Adicionar a célula à grade (apenas para lógica, sem desenhar bordas)
                 grid.push({ x, y, width: size, height: size });
