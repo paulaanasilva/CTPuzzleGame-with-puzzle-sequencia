@@ -5,7 +5,7 @@ export class RespostaItemProgramacao {
   comandosUtilizados: string[] = []
   tempoInicio: number
   tempoEmSegundos: number
-  pulouFase: boolean
+  pulouFase: boolean = false
   contadorUsoLixeira: number = 0
   contadorUsoDebug: number = 0
   contadorUsoPlay: number = 0
